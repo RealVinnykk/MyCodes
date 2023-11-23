@@ -1,29 +1,24 @@
 
-loopTimes = 100
-i = 0
-for (let i = 0; i <= loopTimes; i++) {
-    
-    let num1 = i
+let i = 0
+loop = 100
 
-    switch (i) {
-        case i % 3 == 0 :
-            console.log("Fuzz")
-            
-            break;
-    
-        case i % 5 == 0 :
-            console.log("Buzz")
-            
-            break;
-        case i % 7 == 0 :
-            console.log("FuzzBuzz")
-            
-            break;
-    
-        default:
-            break;
+while (i < loop) {
+    i++
+
+    console.log(i)
+
+    if (i % 3 == 0) {
+        console.log("Buzz")
     }
 
+    if (i % 5 == 0) {
+        console.log("Fuzz")
+    }
 
+    if (i % 3 && 5 == 0) {
+        console.log("FuzzBuzz")
+    }
 
 }
+
+
