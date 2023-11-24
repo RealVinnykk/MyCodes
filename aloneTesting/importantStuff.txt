@@ -1,0 +1,32 @@
+Comments Guide
+
+Red (!)
+Blue (?)
+Green (*)
+Yellow (^)
+Pink (&)
+Purple (~)
+Mustard (todo)
+Grey (//)
+Commented out Code can also be Styled to make it Clear the Code shouldn't be There.
+Any Other Comment Styles you'd like can be Specified in the Settings.
+
+Extensions Installed ( Desktop )
+
+Auto Rename Tag ( Jun Han )
+Auto-Open Markdown Preview ( hnw )
+Code Runner ( Jun Han )
+Colorful Comments ( Parth Rastogi )
+Dark Horizon *Theme* ( mcagampan )
+Error Lens ( Alexander )
+Git History ( Don Jayamanne )
+IntelliCode ( Microsoft )
+IntelliCode API Usage Examples ( Microsoft )
+Kotlin ( fwcd )
+Kotlin Lenguage ( mathiasfrohlich )
+Live Server ( Ritwick Dey )
+Material Icon Theme ( Philipp Kief )
+Prettier - Code Formater ( Prettier )
+Prettier ESLint ( Rebecca Vest )
+Purple-Dark-Horizon ( Ricardo Amorim )
+vscode-pets ( Anthony Shaw )
