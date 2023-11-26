@@ -1,13 +1,13 @@
-function Pokemon(pokeName, level) {
-    pokeName;
-    level;
-    Hp = level * 1.3;
-    ATP = level * 1.1;
-    return pokeName + " " + level;
+function data(numberPackadges, gasLitters, kmDrived) {
+    numberPackadges;
+    gasLitters;
+    kmDrived;
+    kmPerLitter = kmDrived / gasLitters;
+    avarageValue = numberPackadges / 2.5
+    console.log('Hoje sua rota teve o lucro de ' + avarageValue + '$ Por pacote, e teve a media de ' + Math.floor(kmPerLitter) + ' de quilometros por litro')
 }
 
-function print(text) {
-    console.log(text)
+function logar(texto){
+    console.log(texto)
 }
-
-module.exports = { Pokemon, print }
+module.exports = { data, logar }

@@ -1,3 +1,4 @@
-const {Pokemon, print} = require('./teste2');
+const { data, logar } = require('./teste2')
+// ? Dados para serem entrados = Numero de pacotes, Litros de gasolina e quilometros dirigidos
 
-print(Pokemon('Vinny', 17))
+logar(data(60, 35, 100))
