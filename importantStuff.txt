@@ -35,3 +35,35 @@ vscode-pets ( Anthony Shaw )
 
 module.exports = { _What to export_ }
 const { _Functions to create_ } = require('./file');
+
+// Other
+
+Use normalize.css to make things easier
+
+// selectors 
+
+Use for better reference : https://web.dev/learn/css/selectors?hl=pt-br
+
+Universal
+
+* {
+  color: hotpink;
+}
+
+By type 
+
+section {
+  padding: 2em;
+}
+
+By Class
+
+.my-class {
+  color: red;
+}
+
+By ID 
+
+#rad {
+  border: 1px solid blue;
+}
