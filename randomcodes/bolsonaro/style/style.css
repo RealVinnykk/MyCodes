@@ -1,0 +1,9 @@
+body{
+    background-image:linear-gradient(green,red)
+}
+
+blockquote{
+    border-style: groove;
+    border-color: rebeccapurple;
+    max-width:fit-content ;
+}
