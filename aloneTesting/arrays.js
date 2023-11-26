@@ -7,7 +7,16 @@ function pokemon(personName, level) {
     let HP = level * 1.3
 
     console.log('Your pokemon has a name of ' + personName + ' and is at Level ' + level + '\n' + 'Your stats are: ' +Math.round(ATP).toFixed(0) + ' ATP' + ' & ' + Math.round(HP).toFixed(0) + ' HP')
-}           
+} 
 
 
-pokemon('Vinny', 16)
+function numero(){
+    return console.log("EU QUERO SEXOOO");
+}
+
+function print(texto) {
+    console.log(texto);
+}
+
+
+module.exports = { print , numero}

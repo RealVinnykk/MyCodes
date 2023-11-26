@@ -30,3 +30,8 @@ Prettier - Code Formater ( Prettier )
 Prettier ESLint ( Rebecca Vest )
 Purple-Dark-Horizon ( Ricardo Amorim )
 vscode-pets ( Anthony Shaw )
+
+// some commands that are usefull to rememeber
+
+module.exports = { _What to export_ }
+const { _Functions to create_ } = require('./file');
