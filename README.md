@@ -15,6 +15,11 @@ organized to go along with my changes
 
 ## Contributions 
 
+know contributors 
+RealVinnykk ( Owner ) 
+Cobaltopereira ( First Outsider ) 
+
+
 If you have access to this repository, you are free to help !
 
 But please verify the following boxes to make things easier to follow and control 
