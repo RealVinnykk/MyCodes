@@ -15,12 +15,11 @@ function logar(texto){
 
 
 
-dadosMotorista = []
-dadosMotorista.push(data(15, 450, 520))
-dadosMotorista.push(data(90 , 450, 430))
-dadosMotorista.push(data(42, 450, 90))
-dadosMotorista.push(data(56, 450, 150))
-dadosMotorista.push(data(35, 450, 120))
+KilometrosMotorista = []
+KilometrosMotorista.push(data(15, 450, 520))
+KilometrosMotorista.push(data(90 , 450, 430))
+KilometrosMotorista.push(data(42, 450, 90))
+KilometrosMotorista.push(data(56, 450, 150))
+KilometrosMotorista.push(data(35, 450, 120))  
 
-
-module.exports = { data, logar, dadosMotorista }
+module.exports = { data, logar, KilometrosMotorista }
