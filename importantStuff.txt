@@ -67,3 +67,9 @@ By ID
 #rad {
   border: 1px solid blue;
 }
+
+PYTHON
+
+print(str("variableNumber"))
+
+use str() to convert number to string to enable it to print
