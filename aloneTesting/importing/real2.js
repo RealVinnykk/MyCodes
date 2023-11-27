@@ -1,7 +1,0 @@
-úihiopjfeoijloijoij3oijwoiewrjioijtrijoij cino crianças quetrendo brinacar voce aas matou 
-fnagbkhjgkçuilhjosjsçodjoçjoçjpoujdojoçkloçsj
-kjjdhbb\zxilhijopçhjsj\jiklj
-pis\djljlikjloinjsd\
-jkskdjkhbluikjhlukhdsahjk
-ujsdhaukjhkjhsajkdh
-opjsadljlksjlksjalkj

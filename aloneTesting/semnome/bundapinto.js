@@ -1,12 +1,5 @@
-function bubupipi(name1, gggggggggggggggggggfname2) {
-    console.log("seu nome é: " + name1 + gfgdfffffffffffffffffffffffffffffffffffffffff
-    fffffffffffffffffffffffffffff
-    fffffffffffffffffffffffffffffffffff
-    ffffffffffffffffffffffffffffffffffffffffffffffffffff
-    ffffffffffffffffffffffffffffffffffffffffffffffffffff
+function bubupipi(name1, name2) {
+    console.log("seu nome é: " + name1 + name2)
+}
 
-bubupipi("pinto ", " bunda")ffffffffffffffffffffffffffffffffffffffffffffff
-rrrrrrrrrrrrrrrrrrrrrrrrrrrerrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
-rrrrrrrrrrrrrrrrrrrrrrrrrrrerrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
-r
-rrrrrrrrrrrrrrrrrrrrrrrrrrrerrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+bubupipi("pinto ", " bunda")
