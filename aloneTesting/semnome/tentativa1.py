@@ -1,11 +1,12 @@
-kmDriven = 150
-litters = 75
-distance = int
 
-kmPerLitter = (litters / kmDriven)
+#* Tentando repetir o codigo de JavaScript em python, com 0 dias de experiência
 
+kmDriven = 100;
+litter = 50;
 
-print(kmPerLitter)
+kmPerLitter = kmDriven / litter
 
+print('The car made a avarage of ' + str(kmPerLitter) + ' Kilometer per litter')
 
-# ? Python concluido em mais ou menos 3 minutos por conta de erro de logica kk
+#* Finalizado em 
+

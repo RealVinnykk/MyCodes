@@ -1,20 +1,12 @@
 
-
-function calcularDistancia(kmDriven, Litters, Distance) {
-    kmDriven = kmDriven;
-    Litters = Litters;
-    Distance = Distance;
-
-    kmPerLitter = Litters / kmDriven
-
-    return console.log('The car has made a estimated amount of ' + kmPerLitter + ' kilometers per liter of gasoline!')
-} 
+// ? Tentando repetir o mesmo codigo em JavaScript
+function avarageKmPerLitter(kmDriven, Litters) {
+    kmPerLitter = kmDriven / Litters
+    return console.log('The car made an avarage of ' + kmPerLitter + ' Kilometers per litter')
+}
 
 
-calcularDistancia(100, 90, 50)
+avarageKmPerLitter(100,50)
 
-//? Concluido JavaScript em mais ou menos 2.3 minutos
-
-
-
-
+// ? Finalizado em 1:30
+    
