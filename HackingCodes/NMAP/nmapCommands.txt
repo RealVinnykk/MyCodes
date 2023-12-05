@@ -1,0 +1,15 @@
+Comandos uteis em NMAP 
+
+
+-n não quebrar linha ao finalizar echo
+
+
+ NMAP
+
+-T <0-5> delay no tempo de scan, ida de 5 para mais rapido e 0 para mais devagar, ajuda a se mantar invisivel em uma rede
+ - Pode ocorrer erros caso deixe um comando mais rapido como deixar porta como fechada por não esperar tempo suficiente -
+-sS Scan de portas TCP
+-sU Scan de portas UDP
+-sV Scan de serviços 
+-sO Scan de IP
+-O Scan de sistema operacional
