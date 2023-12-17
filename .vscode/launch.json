@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/vinic/Documents/MyCodes/aloneTesting/semnome",
-      "program": "c:/Users/vinic/Documents/MyCodes/aloneTesting/semnome/build/Debug/outDebug",
+      "cwd": "c:/Users/vinic/Documents/MyCodes/aloneTesting/semnome/mainCode",
+      "program": "c:/Users/vinic/Documents/MyCodes/aloneTesting/semnome/mainCode/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
