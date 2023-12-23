@@ -81,13 +81,14 @@ int main()
         //? Account creation successfully and login
         if (verifyPassword == UserPassword)
         {
-        mainLogin:
             cout << "Your account has been succesfully created, do you want to login?(Y/N):";
+        mainLogin:
             cin >> Login;
             if (Login == "Y")
             {
             //? Login in via email
             emailLogin:
+                system("CLS");
                 cout << "Enter your email:";
                 cin >> userLoginEmail;
                 if (userLoginEmail != userEmail)
@@ -114,7 +115,8 @@ int main()
 
                         //? Entered system, checks if want to enter a specific part of system
                         cout << "Login made succesfully!\n";
-                    mainSystem:
+                        mainSystem:
+                        system("CLS");
                         //? Check if wants to enter system
                         string wannaEnter;
                         string systemArea[3][4] = {
@@ -131,6 +133,7 @@ int main()
                             //? Entered storage
 
                         enterStorage:
+                            system("CLS");
                             wannaEnter.clear();
                             string goBack;
                             goBack.clear();
@@ -150,6 +153,7 @@ int main()
                             //? Goes into balance part
 
                         enterBalance:
+                            system("CLS");
                             wannaEnter.clear();
                             string goBack;
                             goBack.clear();
@@ -170,6 +174,8 @@ int main()
                             int adminLogin = 4545;
                             int adminPass;
 
+                            system("CLS");
+
                             cout << "You have entered general managment area! inform admin password to continue!";
                             cin >> adminPass;
 
@@ -183,6 +189,7 @@ int main()
 
                             enterManagment:
 
+                                system("CLS");
                                 wannaEnter.clear();
                                 string goBack;
                                 int ADMIN = 4545;
@@ -202,6 +209,7 @@ int main()
 
                                 if (managerArea == "HR")
                                 {
+                                    system("CLS");
                                     string HRarea;
                                     string HR[3][3]{
                                         {"Firing"},
@@ -219,6 +227,7 @@ int main()
 
                                     if (HRarea == "Firing")
                                     {
+                                        system("CLS");
                                         int sec = 10;
                                         cout << "You have entered the FIRED people area, we have the list of last fired employers:" << endl;
                                         cout << "<---=================================--->" << endl;
@@ -226,19 +235,26 @@ int main()
                                         cout << "Anna, 27, \"Was caught stealing company\'s property\"" << endl;
                                         cout << "<---=================================--->" << endl;
                                         cout << "--=== END ===--" << endl;
+                                        cout << "      " << endl;
                                         system("pause");
                                         HRarea.clear();
                                         goto enterHR;
                                     }
                                     else if (HRarea == "Hiring")
                                     {
+                                        system("CLS");
                                         // int sec = 10;
                                         cout << "You entered the HIRED people area, here we have the currirulum of hired people" << endl;
+                                        cout << "      " << endl;
                                         cout << "<---=================================--->" << endl;
+                                        cout << "      " << endl;
                                         cout << "Mathew.txt" << endl;
+                                        cout << "      " << endl;
                                         cout << "Jessica.txt" << endl;
+                                        cout << "      " << endl;
                                         cout << "<---=================================--->" << endl;
                                         cout << "--=== END ===--" << endl;
+                                        cout << "      " << endl;
                                         // while (sec > 1)
                                         // {
                                         //     cout << "The program will leave in " << sec << " Seconds and will go back to the start\r";
@@ -253,13 +269,19 @@ int main()
                                     }
                                     else if (HRarea == "Personel")
                                     {
+                                        system("CLS");
                                         int sec = 15;
                                         cout << "You entered the area of employees" << endl;
+                                        cout << "      " << endl;
                                         cout << "<---=================================--->" << endl;
+                                        cout << "      " << endl;
                                         cout << "Marcos, Senior Developer, 28" << endl;
+                                        cout << "      " << endl;
                                         cout << "Maria, Senior Developer, 26" << endl;
+                                        cout << "      " << endl;
                                         cout << "<---=================================--->" << endl;
                                         cout << "--=== END ===--" << endl;
+                                        cout << "      " << endl;
                                         system("pause");
 
                                         HRarea.clear();
@@ -267,6 +289,7 @@ int main()
                                     }
                                     else if (HRarea == "BACK")
                                     {
+                                        system("CLS");
                                         goto enterManagment;
                                     }
                                     else
@@ -277,50 +300,69 @@ int main()
                                 }
                                 else if (managerArea == "Storage")
                                 {
+                                    system("CLS");
                                     int sec = 10;
                                     cout << "You entered the storage managment area, please proceed with caution!" << endl;
+                                    cout << "      " << endl;
                                 storageManagment:
                                     cout << "<---=================================--->" << endl;
+                                    cout << "      " << endl;
                                     cout << systemArea[0][0] << endl;
                                     cout << systemArea[0][1] << endl;
                                     cout << systemArea[0][2] << endl;
                                     cout << systemArea[0][3] << endl;
+                                    cout << "      " << endl;
                                     cout << "<---=================================--->" << endl;
                                     cout << "--=== END ===--" << endl;
+                                    cout << "      " << endl;
                                     system("pause");
                                     goto enterManagment;
                                 }
                                 else if (managerArea == "Balance")
                                 {
+                                    system("CLS");
                                     int sec = 10;
                                     cout << "You entered the balance managment area, please proceed with caution!" << endl;
+                                    cout << "      " << endl;
                                 BalanceManagment:
                                     cout << "<---=================================--->" << endl;
+                                    cout << "      " << endl;
                                     cout << systemArea[1][0] << endl;
                                     cout << systemArea[1][1] << endl;
                                     cout << systemArea[1][2] << endl;
                                     cout << systemArea[1][3] << endl;
+                                    cout << "      " << endl;
                                     cout << "<---=================================--->" << endl;
                                     cout << "--=== END ===--" << endl;
+                                    cout << "      " << endl;
                                     system("pause");
                                     goto enterManagment;
                                 }
                                 else if (managerArea == "Managers")
                                 {
+                                    system("CLS");
                                     cout << "Listing existing managers...\n";
                                     cout << "<<---=====--->>" << endl;
+                                    cout << "      " << endl;
                                     cout << "1. " << userName << "\ncontact info: " << userEmail << endl;
+                                    cout << "      " << endl;
                                     cout << "<<---=====--->>" << endl;
+                                    cout << "      " << endl;
                                     cout << "2. Joshua \ncontact info: Personel.joshuaemail@outlook.com" << endl;
+                                    cout << "      " << endl;
                                     cout << "<<---=====--->>" << endl;
+                                    cout << "      " << endl;
                                     cout << "3. Maria \ncontact info: MariaNotReallyBussiness.432@hotmail.com" << endl;
+                                    cout << "      " << endl;
                                     cout << "<<---=====--->>" << endl;
+                                    cout << "      " << endl;
 
                                     system("pause");
                                     goto enterManagment;
                                 }
                                 else if (managerArea == "MAINSYS")
                                 {
+                                    system("CLS");
                                     goto mainSystem;
                                 }
                                 else
@@ -346,7 +388,7 @@ int main()
                         }
                         else
                         {
-                            cout << "Please enter a valid character!" << endl;
+                            cout << "Please enter a valid character! (1-2-3):" << endl;
                             goto mainSystem;
                         }
                     }
@@ -359,7 +401,7 @@ int main()
             }
             else
             {
-                cout << "Please enter a valid character";
+                cout << "Please enter a valid character!(Y/N): ";
                 goto mainLogin;
             }
         }

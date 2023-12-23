@@ -8,6 +8,7 @@ Pink (&)
 Purple (~)
 Mustard (todo)
 Grey (//)
+
 Commented out Code can also be Styled to make it Clear the Code shouldn't be There.
 Any Other Comment Styles you'd like can be Specified in the Settings.
 
@@ -31,7 +32,7 @@ Prettier ESLint ( Rebecca Vest )
 Purple-Dark-Horizon ( Ricardo Amorim )
 vscode-pets ( Anthony Shaw )
 
-// some commands that are usefull to rememeber
+// some commands that are usefull to rememeber in javascript
 
 module.exports = { _What to export_ }
 const { _Functions to create_ } = require('./file');
