@@ -7,7 +7,8 @@
 using namespace std;
 
 char pastUsers[5][50] = {"Joshua", "Kelvin", "Angela", "Carla", "ADMIN"};
-char  passwords[5][20] = {"320285", "573389", "880937", "979585", "ROOT"};
+char passwords[5][20] = {"320285", "573389", "880937", "979585", "ROOT"};
+
 
 //^ Usefull waiting function 
 void wait(int(sec)){
@@ -15,7 +16,6 @@ void wait(int(sec)){
 
     while (sec > 0)
     {
-         cout << "Going to next step in " << sec << " seconds\r";
          Sleep(1000);
          sec--;
     }
