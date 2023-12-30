@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/vinic/Documents/MyCodes/C",
-      "program": "c:/Users/vinic/Documents/MyCodes/C/build/Debug/outDebug",
+      "cwd": "c:/Users/vinic/Documents/MyCodes/C++/CodigoLogin",
+      "program": "c:/Users/vinic/Documents/MyCodes/C++/CodigoLogin/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
