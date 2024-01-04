@@ -74,3 +74,12 @@ PYTHON
 print(str("variableNumber"))
 
 use str() to convert number to string to enable it to print
+
+/* //^ Used for uppercase letters;      
+for (i = 0; i < createAccount.length(); i++)
+    {
+        createAccount[i] = toupper(createAccount[i]);
+    }
+
+    i = 0;
+*/

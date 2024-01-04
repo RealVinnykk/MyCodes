@@ -8,99 +8,151 @@
 
 using namespace std;
 
-void wait(int sec){
+void wait(int sec)
+{
     int i;
     for (i = 0; i < sec; i++)
     {
         Sleep(1000);
-        
     }
-    
-};
+}
 
 int quantidade = 0;
 
-int quantosAlunos(){
+int quantosAlunos()
+{
     cout << "Na escola, temos " << quantidade << " alunos";
 }
 
-int contador(){
+int contador()
+{
     quantidade++;
     return quantidade;
 }
 
-class Account{
-    private:
-
+class Account
+{
+private:
     int accountNumber;
     int password;
 
-    
-
-    public:
+public:
     int openAccount = 0;
     int balance = 0;
     string name;
 
-
-    Account(string nome, int senha){
+    Account(string nome, int senha)
+    {
         name = nome;
         password = senha;
     };
 
-    int deposit(){
-        int depositValue; 
-        cout << "informe a quantidade de dinheiro a ser depositada" << endl << "->";
+    int deposit()
+    {
+        int depositValue;
+        cout << "informe a quantidade de dinheiro a ser depositada" << endl
+             << "->";
         cin >> depositValue;
 
-        balance += depositValue;
+        balance = balance + depositValue;
 
         cout << "valor depositado com sucesso!" << endl;
+        cout << "voce tem " << balance << " reais agora!" << endl;
         system("pause");
         system("CLS");
 
         return balance;
     }
 
-    int withDraw(){
-        int withDrawValue; 
+    int withDraw()
+    {
+        int withDrawValue;
 
-        if (balance > 0 ){
-            cout << "voce tem " << balance << " reais disponivel para saque, quanto voce deseja sacar?" << endl << "->";
+        if (balance > 0)
+        {
+            cout << "voce tem " << balance << " reais disponivel para saque, quanto voce deseja sacar?" << endl
+                 << "->";
             cin >> withDrawValue;
 
-            if(withDrawValue > balance){
-                cout << "voce nao tem dinheiro o suficiente para fazer um saque deste valor, por favor realize um deposito para concluir a acao" << endl;;
-                system("pause");
-                system("CLS");
-            }else{
-                balance -= withDrawValue;
-                cout << "saque realizado com sucesso, voce tem " << balance << " reais na sua conta" << endl;
+            if (withDrawValue > balance)
+            {
+                cout << "voce nao tem dinheiro o suficiente para fazer um saque deste valor, por favor realize um deposito para concluir a acao" << endl;
+                ;
                 system("pause");
                 system("CLS");
             }
-        }else if(balance == 0){
+            else
+            {
+                balance = balance - withDrawValue;
+                cout << "saque realizado com sucesso, voce tem " << balance << " reais na sua conta" << endl;
+                return balance;
+                system("pause");
+                system("CLS");
+            }
+        }
+        else if (balance == 0)
+        {
             cout << "voce tem " << balance << " reais na sua conta e nao podera realizar nenhum saque, faca um deposito" << endl;
             system("pause");
-        }else if(balance < 0){
+        }
+        else if (balance < 0)
+        {
             cout << "voce tem dividas na sua conta e esta no vermelho, pague suas pendencias!" << endl;
             system("pause");
         }
-        
     }
 
-    int checkBalance(){
+    int checkBalance()
+    {
         cout << "voce tem " << balance << " dolares na sua conta" << endl;
         system("pause");
     }
-
 };
 
-/* //^ Used for uppercase letters;      
-for (i = 0; i < createAccount.length(); i++)
-    {
-        createAccount[i] = toupper(createAccount[i]);
-    }
+class Item
+{
+private:
+    int codigo;
 
-    i = 0;
-*/
+public:
+    string nomeP;
+    string tipoP;
+    int valorP;
+
+    Item(string nome, string tipo, int valor)
+    {
+        nomeP = nome;
+        tipoP = tipo;
+        valorP = valor;
+
+
+    };
+
+    int informarValor()
+    {
+        cout << "O valor do produto " << nomeP << " e de " << valorP << endl;
+        return valorP;
+    }
+};
+
+
+
+
+void criarItem(string nomeNovo, string TipeItem, int valueItem)
+{
+    string nomeSistema;
+
+    cout << "Nome do item : ";
+    cin >> nomeSistema;
+
+    cout << "Tipo do item (BEBIDA, ALIMENTO, GULOSEIMA): ";
+    cin >> TipeItem;
+
+    cout << "Valor do item: ";
+    cin >> valueItem;
+
+    cout << "item criado com sucesso" << endl;
+
+
+    // Item nomeSistema = Item(nomeNovo, TipeItem, valueItem);
+}
