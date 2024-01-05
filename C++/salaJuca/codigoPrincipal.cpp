@@ -439,7 +439,7 @@ entrouConveniencia:
 
         cout << "-===================-" << endl;
         cout << "Fim dos itens do corredor de guloseimas, se voce deseja comprar algo digite o nome do produto, caso queira voltar digite voltar" << endl;
-        cin >> qualGuloseima;
+        cin >> qualGuloseima:
         for (i = 0; i < qualGuloseima.length(); i++)
         {
 
