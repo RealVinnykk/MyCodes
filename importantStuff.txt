@@ -83,3 +83,32 @@ for (i = 0; i < createAccount.length(); i++)
 
     i = 0;
 */
+
+Vim Shit 
+
+i -> inserir depois da letra 
+I -> inserir no começo da linha
+a -> inserir antes da letra
+A -> inseror no fim da linha
+o -> criar uma nova linha depois da.linha atual
+O -> criar uma nova linha antes da linha atual
+r -> substituir uma letra com outra
+R -> substituir ate eu querer parar ao apertar ESC
+e -> mover para o fim de uma palavra
+E -> mover para o FIM da palavra
+w -> ir para proxima palavra
+W -> ir para proxima palavra ignorando acento
+c -> muda oque a gente especificar 
+C -> muda ate o fim da linha
+x -> deleta apenas um caractere seguinte
+X -> deleta apenas um caractere passado
+d -> deleta oque a gente especifica (recebe combinações (ex: d2w, delete 2 words))
+D -> deleta ate o fim da linha
+y - copia com o modificador especifico
+Y -> copia toda a linha
+p -> cola depois da seleção
+P -> cola antes da seleção
+tem como apagar e colar para recortar
+
+apartir daqui estarei testando as coisas do VIM editor.
+

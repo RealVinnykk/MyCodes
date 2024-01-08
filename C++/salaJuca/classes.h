@@ -37,6 +37,7 @@ private:
     int password;
 
 public:
+    int wallet = 0;
     int openAccount = 0;
     int balance = 0;
     string name;
@@ -84,7 +85,8 @@ public:
             else
             {
                 balance = balance - withDrawValue;
-                cout << "saque realizado com sucesso, voce tem " << balance << " reais na sua conta" << endl;
+                wallet = wallet + withDrawValue;
+                cout << "saque realizado com sucesso, voce tem " << balance << " reais na sua conta e " << withDrawValue << " foram adicionados na sua carteira" << endl;
                 return balance;
                 system("pause");
                 system("CLS");
@@ -107,33 +109,11 @@ public:
         cout << "voce tem " << balance << " dolares na sua conta" << endl;
         system("pause");
     }
-};
 
-class Item
-{
-private:
-    int codigo;
-
-public:
-    string nomeP;
-    string tipoP;
-    int valorP;
-
-    Item(string nome, string tipo, int valor)
-    {
-        nomeP = nome;
-        tipoP = tipo;
-        valorP = valor;
-
-
-    };
-
-    int informarValor()
-    {
-        cout << "O valor do produto " << nomeP << " e de " << valorP << endl;
-        return valorP;
-    }
-};
+    int checkWallet(){
+        cout << "Voce tem" << wallet << " reais na sua carteira" << endl;
+        system("pause");
+    }};
 
 
 
