@@ -21,6 +21,9 @@ string lugar;
 int i;
 int idade;
 int senha;
+vector<string> cesta;
+vector<int> cestaValor;
+int valorTotal;
 
 Account conta = Account(nome, senha);
 
@@ -145,9 +148,7 @@ int irNaConv()
 
  entrouConveniencia:
 
-    vector<string> cesta;
-    vector<int> cestaValor;
-    int valorTotal;
+    
 
     string qualCorredor = "";
     string *irCorredor = &qualCorredor;
@@ -627,6 +628,9 @@ int irNaConv()
             wait(2);
             system("pause");
             goto corredorPrincipal;
+        }else if(cesta.size() <= 0 && *irCorredor == "CESTA"){
+            cout << "sua cesta esta vazia, compre algo digitando o nome do produto!" << endl;
+            goto corredorPrincipal;
         }
 
         if (*irCorredor == "CESTA")
@@ -640,10 +644,10 @@ int irNaConv()
                 int posicaoItem;
                 int *qualRemover = &posicaoItem;
                
-               vector<int>::iterator it;
-               it = cestaValor.erase(cestaValor.begin()+ posicaoItem); 
-               vector<string>::iterator it2;
-               it2 = cesta.erase(cesta.begin() + posicaoItem);
+            //    vector<int>::iterator it;
+            //    it = cestaValor.erase(cestaValor.begin()+ posicaoItem); 
+            //    vector<string>::iterator it2;
+            //    it2 = cesta.erase(cesta.begin() + posicaoItem);
                 for (int i = 0; i < cesta.size(); i++)
                 {
                     cout << i << " Item " << cesta[i] << " no valor de " << cestaValor[i] << endl;
@@ -659,8 +663,8 @@ int irNaConv()
                     
                     cout << "Removendo item " << cesta[*qualRemover] << endl;
                     wait(2);
-                    cesta.erase(it2);        
-                    cestaValor.erase(it);
+                    cesta.erase(cesta.begin() + posicaoItem);
+                    cestaValor.erase(cestaValor.begin() + posicaoItem);
                     cout << "Item Removido..." << endl;
                     wait(2);
                    *qualRemover == 0; 
@@ -677,7 +681,7 @@ int irNaConv()
                     wait(2);
                     system("CLS");
                     cin.clear();
-                    goto entrouConveniencia;
+                    goto corredorPrincipal;
                    }
                     
                     
@@ -699,7 +703,7 @@ int irNaConv()
         
         {
             cout << "Sua cesta esta vazia, coloque alguma coisa na sua cesta indo ao corredor e escolhendo o produto desejado!" << endl;
-            wait(2);
+            wait(5);
             *irCorredor == "";
             goto corredorPrincipal;
     
