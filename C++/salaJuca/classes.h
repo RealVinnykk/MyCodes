@@ -8,6 +8,10 @@
 
 using namespace std;
 
+vector<string> nomeClientes = {"NONE", "Carlos", "Jose", "Maria", "Fernanda"};
+
+vector<string> formaPagar = {"NONE", "Credito", "Debito", "Dinheiro"};
+
 void wait(int sec)
 {
     int i;
@@ -15,19 +19,6 @@ void wait(int sec)
     {
         Sleep(1000);
     }
-}
-
-int quantidade = 0;
-
-int quantosAlunos()
-{
-    cout << "Na escola, temos " << quantidade << " alunos";
-}
-
-int contador()
-{
-    quantidade++;
-    return quantidade;
 }
 
 class Account
@@ -110,29 +101,10 @@ public:
         system("pause");
     }
 
-    int checkWallet(){
+    int checkWallet()
+    {
         cout << "Voce tem" << wallet << " reais na sua carteira" << endl;
         system("pause");
-    }};
+    }
+};
 
-
-
-
-void criarItem(string nomeNovo, string TipeItem, int valueItem)
-{
-    string nomeSistema;
-
-    cout << "Nome do item : ";
-    cin >> nomeSistema;
-
-    cout << "Tipo do item (BEBIDA, ALIMENTO, GULOSEIMA): ";
-    cin >> TipeItem;
-
-    cout << "Valor do item: ";
-    cin >> valueItem;
-
-    cout << "item criado com sucesso" << endl;
-
-
-    // Item nomeSistema = Item(nomeNovo, TipeItem, valueItem);
-}

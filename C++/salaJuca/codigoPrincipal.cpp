@@ -24,8 +24,47 @@ int senha;
 vector<string> cesta;
 vector<int> cestaValor;
 int valorTotal;
+int numeroAleatorio = (rand() % 5);
 
 Account conta = Account(nome, senha);
+string Biscoito[2] = {"BISCOITO", "Alimento"};
+double BiscoitoValor = 4;
+string Skilho[2] = {"SKILHO", "Alimento"};
+double SkilhoValor = 3;
+string Pipoca[2] = {"PIPOCA", "Alimento"};
+double PipocaValor = 3.5;
+string Chocolate[2] = {"CHOCOLATE", "Alimento"};
+double ChocolateValor = 5;
+string Bolacha[2] = {"BOLACHA", "Alimento"};
+double BolachaValor = 7;
+
+double CocaValor = 4;
+string Fanta[3] = {"FANTA UVA", "FANTA LARANJA", "Bebida"};
+double FantaValor = 3;
+string Pepsi[2] = {"PEPSI", "Bebida"};
+double PepsiValor = 5;
+string Guarana[2] = {"GUARANA", "Bebida"};
+double GuaranaValor = 7;
+string Sucos[4] = {"SUCO DE LARANJA", "SUCO DE UVA", "SUCO DE MORANGO", "Bebidas"};
+double SucosValor[3] = {7, 6, 5};
+string Energetico[3] = {"MONSTER", "RED BULL", "Bebida"};
+double EnergeticoValor[2] = {4, 5};
+string Agua[2] = {"AGUA", "Bebida"};
+double AguaValor = 2;
+string Nescau[2] = {"NESCAU", "Bebida"};
+double NescauValor = 7;
+
+string BomBom[2] = {"BOMBOM", "Guloseimas"};
+double BombomValor = 1.5;
+string Finni[2] = {"FINNI", "Guloseimas"};
+double FinniValor = 4.50;
+string BarraCereal[3] = {"BARRA DE CEREAL SABOR MORANGO", "BARRA DE CEREAL SABOR CHOCOLATE", "BARRA DE CEREAL SABOR BANANA"};
+double BarraValor[3] = {3, 5, 4};
+string Jujuba[2] = {"JUJUBA", "Guloseimas"};
+double JujubaValor = 4;
+string MEM[2] = {"M&M", "Guloseimas"};
+double MEMValor = 5;
+
 
 //^ menu principal para escolha do lugar que o cara quer visitar
 int menuPrincipal()
@@ -146,9 +185,7 @@ entrouBar:
 int irNaConv()
 {
 
- entrouConveniencia:
-
-    
+entrouConveniencia:
 
     string qualCorredor = "";
     string *irCorredor = &qualCorredor;
@@ -179,16 +216,6 @@ int irNaConv()
         {
 
             //^ Corredor alimentos
-            string Biscoito[2] = {"BISCOITO", "Alimento"};
-            double BiscoitoValor = 4;
-            string Skilho[2] = {"SKILHO", "Alimento"};
-            double SkilhoValor = 3;
-            string Pipoca[2] = {"PIPOCA", "Alimento"};
-            double PipocaValor = 3.5;
-            string Chocolate[2] = {"CHOCOLATE", "Alimento"};
-            double ChocolateValor = 5;
-            string Bolacha[2] = {"BOLACHA", "Alimento"};
-            double BolachaValor = 7;
 
         corredorAlimentacao:
             string qualAlimento;
@@ -298,21 +325,6 @@ int irNaConv()
                 "COCA COLA",
                 "Bebida",
             };
-            double CocaValor = 4;
-            string Fanta[3] = {"FANTA UVA", "FANTA LARANJA", "Bebida"};
-            double FantaValor = 3;
-            string Pepsi[2] = {"PEPSI", "Bebida"};
-            double PepsiValor = 5;
-            string Guarana[2] = {"GUARANA", "Bebida"};
-            double GuaranaValor = 7;
-            string Sucos[4] = {"SUCO DE LARANJA", "SUCO DE UVA", "SUCO DE MORANGO", "Bebidas"};
-            double SucosValor[3] = {7, 6, 5};
-            string Energetico[3] = {"MONSTER", "RED BULL", "Bebida"};
-            double EnergeticoValor[2] = {4, 5};
-            string Agua[2] = {"AGUA", "Bebida"};
-            double AguaValor = 2;
-            string Nescau[2] = {"NESCAU", "Bebida"};
-            double NescauValor = 7;
 
         corredorBebidas:
             cout << "voce esta no corredor de bebidas, temos os seguintes itens disponiveis para compra" << endl;
@@ -478,16 +490,6 @@ int irNaConv()
 
             string qualGuloseima;
             //^ Corredor guloseimas
-            string BomBom[2] = {"BOMBOM", "Guloseimas"};
-            double BombomValor = 1.5;
-            string Finni[2] = {"FINNI", "Guloseimas"};
-            double FinniValor = 4.50;
-            string BarraCereal[3] = {"BARRA DE CEREAL SABOR MORANGO", "BARRA DE CEREAL SABOR CHOCOLATE", "BARRA DE CEREAL SABOR BANANA"};
-            double BarraValor[3] = {3, 5, 4};
-            string Jujuba[2] = {"JUJUBA", "Guloseimas"};
-            double JujubaValor = 4;
-            string MEM[2] = {"M&M", "Guloseimas"};
-            double MEMValor = 5;
 
         corredorGuloseima:
             cout << "voce esta no corredor de guloseimas, temos os seguintes itens disponiveis para compra" << endl;
@@ -628,26 +630,26 @@ int irNaConv()
             wait(2);
             system("pause");
             goto corredorPrincipal;
-        }else if(cesta.size() <= 0 && *irCorredor == "CESTA"){
+        }
+        else if (cesta.size() <= 0 && *irCorredor == "CESTA")
+        {
             cout << "sua cesta esta vazia, compre algo digitando o nome do produto!" << endl;
             goto corredorPrincipal;
         }
 
         if (*irCorredor == "CESTA")
         {
-            cestaDeCompras:
+        cestaDeCompras:
             if (cesta.empty() == false && *irCorredor == "CESTA")
             {
-                
-                
-              
+
                 int posicaoItem;
                 int *qualRemover = &posicaoItem;
-               
-            //    vector<int>::iterator it;
-            //    it = cestaValor.erase(cestaValor.begin()+ posicaoItem); 
-            //    vector<string>::iterator it2;
-            //    it2 = cesta.erase(cesta.begin() + posicaoItem);
+
+                //    vector<int>::iterator it;
+                //    it = cestaValor.erase(cestaValor.begin()+ posicaoItem);
+                //    vector<string>::iterator it2;
+                //    it2 = cesta.erase(cesta.begin() + posicaoItem);
                 for (int i = 0; i < cesta.size(); i++)
                 {
                     cout << i << " Item " << cesta[i] << " no valor de " << cestaValor[i] << endl;
@@ -655,72 +657,68 @@ int irNaConv()
 
                 cout << "se voce deseja remover algum item, digite o numero fornecido ao mesmo" << endl;
                 cout << "caso não queira remover nenhum item digite sair" << endl;
-               cin >> posicaoItem; 
-                
+                cin >> posicaoItem;
 
                 if (cin)
                 {
-                    
+
                     cout << "Removendo item " << cesta[*qualRemover] << endl;
                     wait(2);
                     cesta.erase(cesta.begin() + posicaoItem);
                     cestaValor.erase(cestaValor.begin() + posicaoItem);
                     cout << "Item Removido..." << endl;
                     wait(2);
-                   *qualRemover == 0; 
-                   if (cesta.size() >= 1)
-                   {
-                    cout << "voce ainda tem itens na sua cesta..." << endl;
-                    wait(2);   
-                    system("CLS");
-                    cin.clear();
-                    goto cestaDeCompras;
-                   }else if(cesta.size() <= 0){
-                    cout << "sua sacola de compras esta vazia no momento, voltando para o corredor principal..." << endl;
                     *qualRemover == 0;
-                    wait(2);
-                    system("CLS");
-                    cin.clear();
-                    goto corredorPrincipal;
-                   }
-                    
-                    
-                }else
+                    if (cesta.size() >= 1)
+                    {
+                        cout << "voce ainda tem itens na sua cesta..." << endl;
+                        wait(2);
+                        system("CLS");
+                        cin.clear();
+                        goto cestaDeCompras;
+                    }
+                    else if (cesta.size() <= 0)
+                    {
+                        cout << "sua sacola de compras esta vazia no momento, voltando para o corredor principal..." << endl;
+                        *qualRemover == 0;
+                        wait(2);
+                        system("CLS");
+                        cin.clear();
+                        goto corredorPrincipal;
+                    }
+                }
+                else
                 {
                     *irCorredor == "";
-                    *qualRemover == 0;        
-                    
-                    
+                    *qualRemover == 0;
+
                     cout << "Nenhum item foi removido, indo para o corredor princpal..." << endl;
                     wait(2);
                     cin.clear();
                     goto corredorPrincipal;
-                    
                 }
-                
+            }
+            else if (cesta.empty() == true && *irCorredor == "CESTA")
 
-        }else if (cesta.empty() == true && *irCorredor == "CESTA")
-        
-        {
-            cout << "Sua cesta esta vazia, coloque alguma coisa na sua cesta indo ao corredor e escolhendo o produto desejado!" << endl;
-            wait(5);
-            *irCorredor == "";
-            goto corredorPrincipal;
-    
+            {
+                cout << "Sua cesta esta vazia, coloque alguma coisa na sua cesta indo ao corredor e escolhendo o produto desejado!" << endl;
+                wait(5);
+                *irCorredor == "";
+                goto corredorPrincipal;
+            }
+
+            if (*irCorredor == "CARTEIRA")
+            {
+                conta.checkWallet();
+                goto entrouConveniencia;
+            }
         }
-
-        if (*irCorredor == "CARTEIRA")
+        else
         {
-            conta.checkWallet();
+            *irCorredor == "";
             goto entrouConveniencia;
         }
     }
-    else
-    {
-        *irCorredor == "";
-        goto entrouConveniencia;
-    }
-}
 }
 int main()
 {
