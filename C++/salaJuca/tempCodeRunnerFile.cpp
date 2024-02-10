@@ -1,1 +1,1 @@
-ALIMENTO
+ lugar[i] = toupper(lugar[i]);
