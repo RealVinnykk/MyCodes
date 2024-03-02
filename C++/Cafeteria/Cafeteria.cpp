@@ -15,6 +15,29 @@ void wait(int sec ){
     Sleep(sec * 1000);
 }
 
+void chars(string name, int time, int takeout){
+
+    if (takeout == 1)
+    {
+        for (int i = 0; i < name.size(); i++)
+        {
+           cout << name[i];
+           Sleep(time); 
+        }
+           cout << "" << endl;
+        
+    }else{
+        for (int i = 0; i < name.size(); i++)
+        {
+          cout << name[i];
+          Sleep(time); 
+        }
+        
+    }
+    
+
+}
+
 class Enemy{
     public:
     int HP;
@@ -50,7 +73,9 @@ class Player{
     Player(string nome){
         name = nome;
     };
-    ~Player(){};
+    ~Player(){
+
+    };
       void stats(){
         cout << name << " stats: " << endl;
         cout << "HP: " << HP << endl;
@@ -97,21 +122,39 @@ class Player{
         stamina += stamina;
     }
 
-
 };
 
-class healer : public Player{
-    public:
+
+int suaClasse(){
+     int classe;
+
     
-};
+    chars("our village is under attack, chose your class fast!", 100, 1);
+    cout << "1 - Healer | 2 - Assasin | 3 - Mage" << endl;
+    chars("which class you want adventurer?:", 100, 0);
 
-class assasin : public Player{
-    public:
-};
+    cin >> classe;
 
-class mage : public Player{
+    
+}
 
-};
+string playerName;
+
 int main(){
+    chars("hello adventurer...", 100, 1); 
+    chars("tell-me your name:", 100, 0);
+    cin >> playerName;
+    chars("hello ", 100, 0); chars(playerName, 100, 1);
+
+   
+
+    
+    
+    
+    system("pause");
+    
+
+
+    return 0;//^ Ending main() function
     
 }
