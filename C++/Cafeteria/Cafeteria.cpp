@@ -38,123 +38,150 @@ void chars(string name, int time, int takeout){
 
 }
 
-class Enemy{
-    public:
-    int HP;
-    int ATK;
-    string name;
-    int REW;
 
-    void stats(){
-        cout << name << " stats: " << endl;
-        cout << "HP: " << HP << endl;
-        cout << "ATK: " << ATK << endl;
-    }
-    void defense(){
-        cout << name << " defendeu e obteve 4 de HP! " << endl;
-        HP+= 4;
-    }
-    void attack(){
-        cout << name << " atacou e causou " << ATK << " de dano" << endl;
-    }
-};
+void menu(){
 
-class Player{
-    public:
-    int HabilityTime = 5;
-    int stamina = 15;
-    int HP = 15;
-    int ATK1;
-    int ATK2;
-    int XP = 0;
-    int LVL = 1;
-    string name;
-
-    Player(string nome){
-        name = nome;
-    };
-    ~Player(){
-
-    };
-      void stats(){
-        cout << name << " stats: " << endl;
-        cout << "HP: " << HP << endl;
-        cout << "ATK1: " << ATK1 << endl;
-        cout << "ATK2: " << ATK2 << endl;
-        cout << "XP: " << XP << endl;
-        cout << "LVL: " << LVL << endl;
-
-    }
-
-    void changeStats(int atkU, int atkD, int health){
-        ATK1 = atkU;
-        ATK2 = atkD;
-        HP = health;
-    }
-
-    void defense(){
-        cout << "voce defendeu e obteve 4 de HP e 5 de stamina! " << endl;
-        HP += 4;
-        stamina += 5;
-        HabilityTime--;
-    } 
-    void attack(int qual){
-        if (qual == 1)
-        {
-            cout << "voce atacou e causou 5 de dano, usando 5 de estamina" << endl;
-            stamina -= 5;
-            HabilityTime--;
-        }
-        else if (qual == 2)
-        {
-         cout << "voce atacou e causou 7 de dano, usando 7 de estamina" << endl;
-         stamina -= 7;
-         HabilityTime--;
-        }
-        
-    }
-
-    void hability(){
-        cout << "voce usou sua habilidade especial e maximizou sua vida e estamina! seu ataque foi dobrado no proximo turno" << endl;
-        HP += HP;
-        ATK1 += ATK1;
-        ATK2 += ATK2;
-        stamina += stamina;
-    }
-
-};
+    cout << "-----==========-----" << endl;
+    cout << "-----== MENU ==-----" << endl;
+    cout << "1 - Bebidas " << endl;
+    cout << "2 - Pratos Principais" << endl;
+    cout << "3 - Sobremesas" << endl;
+    cout << "-----== FIM ==-----" << endl;
+    cout << "-----==========-----" << endl;
 
 
-int suaClasse(){
-     int classe;
-
-    
-    chars("our village is under attack, chose your class fast!", 100, 1);
-    cout << "1 - Healer | 2 - Assasin | 3 - Mage" << endl;
-    chars("which class you want adventurer?:", 100, 0);
-
-    cin >> classe;
-
-    
+    //~ Fim
 }
 
-string playerName;
+
+        vector<string> Cesta;
+        vector<int> vCesta;
+
+
+void sacola(){
+        int vTOTAL;
+        cout << "O status da sua sacola e a seguinte" << endl;
+        for (int i = 0; i < Cesta.size(); i++)
+            {
+                cout << "Item " << Cesta[i] << " no valor de: " << vCesta[i] << " reais" << endl;
+                wait(1);
+            }
+            
+    }
+
+
+    string nomeCliente;
 
 int main(){
-    chars("hello adventurer...", 100, 1); 
-    chars("tell-me your name:", 100, 0);
-    cin >> playerName;
-    chars("hello ", 100, 0); chars(playerName, 100, 1);
-
-   
-
-    
-    
-    
-    system("pause");
-    
 
 
-    return 0;//^ Ending main() function
+    cout << "bem-vindo a cafeteria cliente, qual seu nome?: ";
+    cin >> nomeCliente;
+
+    wait(2);
+    bool pedindo = true;
+    int areaMenu;
+    int item;
+
+    while(pedindo == true){
+        
+        vector<string> Bebidas = {"Coca-Cola", "Guarana", "Pepsi"};
+        vector<int> vBebidas = {3, 4, 7};
+
+        vector<string> PratosPrincipais = {"Panquecas", "Ovo-Frito", "Cafe Completo"};
+        vector<int> vPratosPrincipais = {2,5,15};
+
+        vector<string> Sobremesas = {"Sorvete", "Bolo-Chocolate", "Macaron"};
+        vector<int> vSobremesas = {3,4,5};
+
+
     
+
+    cout << "ola " << nomeCliente << " temos so seguintes items do menu disponiveis para pedir: " << endl;
+
+    wait(2);
+    menu();
+
+
+    cout << "qual area do menu voce deseja ir?:" << endl;
+    cin >> areaMenu;
+
+    if(areaMenu == 1){
+
+        cout << "voce esta na area de bebidas, temos os seguintes itens" << endl;
+    
+        for (int i = 0; i < Bebidas.size(); i++)
+        {
+            cout << "item " << Bebidas[i] << " no valor de: " << vBebidas[i] << endl;
+            wait(2);
+        }
+
+    cout << "qual item voce deseja?(digite 4 para voltar)" << endl;
+    cin >> item;
+        if (item == 1)
+        {
+            cout << "voce adicionou uma coca cola no valor de 3$ na sua sacola!" << endl;
+            Cesta.push_back(Bebidas[0]);
+            vCesta.push_back(vBebidas[0]);
+
+            sacola();
+            
+        }
+        if(item == 2){
+
+            cout << "voce adicionou um guarana no valor de 4 reais na sua sacola!" << endl;
+            Cesta.push_back(Bebidas[1]);
+            vCesta.push_back(vBebidas[1]);
+
+            sacola();
+        }
+        if(item == 3){
+
+            cout << "voce adicionou uma pepsi no valor de 7 reais na sua sacola!" << endl;
+            Cesta.push_back(Bebidas[2]);
+            vCesta.push_back(vBebidas[2]);
+
+            sacola();   
+        }
+        if(item == 4){
+            break;
+        }
+        
+    }//~ Fim Bebidas
+
+    if (areaMenu == 2)
+    {
+        /* code */
+    }
+    
+
+    if(areaMenu == 3){
+        cout << "voce esta na area de sobremesas do menu, temos os seguintes itens" << endl;
+        for (int i = 0; i < Sobremesas.size(); i++)
+        {
+           cout << "item " << Sobremesas[i] << " no valor de: " << vSobremesas[i] << endl;
+           wait(1); 
+        }
+
+        cout << "qual item voce deseja?" << endl;
+        cin >> item;
+
+        if (item == 2)
+        {
+            cout << "item macaron foi adicionado a sua sacola no valor de 5 reais!" << endl;
+            Cesta.push_back(Sobremesas[2]);
+            vCesta.push_back(vSobremesas[2]);
+            wait(2);
+            sacola();
+            system("pause");
+        }
+        
+        
+    }
+    
+    }
+
+
+    cout << "LEAVING..." << endl;
+    return 0; //^ Finishing main function
 }
