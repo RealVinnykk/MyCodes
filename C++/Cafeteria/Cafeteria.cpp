@@ -85,18 +85,18 @@ int main(){
     int areaMenu;
     int item;
     int metodo;
-    int valTotal;
+    int valTotal = 0;
 
     while(pedindo == true){
         
         vector<string> Bebidas = {"Coca-Cola", "Guarana", "Pepsi"};
-        vector<int> vBebidas = {3, 4, 7};
+        int vBebidas[3] = {3, 4, 7};
 
         vector<string> PratosPrincipais = {"Panquecas", "Ovo-Frito", "Cafe Completo"};
-        vector<int> vPratosPrincipais = {2,5,15};
+        int vPratosPrincipais[3] = {2,5,15};
 
         vector<string> Sobremesas = {"Sorvete", "Bolo-Chocolate", "Macaron"};
-        vector<int> vSobremesas = {3,4,5};
+        int vSobremesas[3] = {3,4,5};
 
 
     
@@ -120,7 +120,7 @@ int main(){
         for (int i = 0; i < Bebidas.size(); i++)
         {
             cout << "item " << Bebidas[i] << " no valor de: " << vBebidas[i] << endl;
-            wait(2);
+            wait(1);
         }
 
     cout << "qual item voce deseja?(digite 4 para voltar)" << endl;
@@ -131,7 +131,8 @@ int main(){
             cout << "voce adicionou " << Bebidas[item] <<" no valor de " << vBebidas[item] << "$ na sua sacola!" << endl;
             Cesta.push_back(Bebidas[item]);
             vCesta.push_back(vBebidas[item]);
-
+            valTotal += vBebidas[item];
+            wait(1);
             sacola();
             
         }else{
@@ -159,6 +160,11 @@ int main(){
         if (cin && item + 1 != 4)
         {
             cout << "item " << PratosPrincipais[item] << " foi adicionado na sua sacola no valor de " << vPratosPrincipais[item] << " reais" << endl;
+            Cesta.push_back(PratosPrincipais[item]);
+            vCesta.push_back(vPratosPrincipais[item]);
+            valTotal += vPratosPrincipais[item];
+            wait(1);
+            sacola();
         }else{
             break;
         }
@@ -177,7 +183,7 @@ int main(){
         for (int i = 0; i < Sobremesas.size(); i++)
         {
            cout << "item " << Sobremesas[i] << " no valor de: " << vSobremesas[i] << endl;
-           wait(1); 
+           wait(2);
         }
 
         cout << "qual item voce deseja?(digite 4 para voltar)" << endl;
@@ -188,7 +194,8 @@ int main(){
             cout << "Item " << Sobremesas[item] << " foi adicionado a sua sacola no valor de "<< vSobremesas[item] << "$ reais! " << endl;
             Cesta.push_back(Sobremesas[item]);
             vCesta.push_back(vSobremesas[item]);
-            wait(2);
+            valTotal += vSobremesas[item];
+            wait(1);
             sacola();
        
         }else{
@@ -223,7 +230,6 @@ int main(){
          for (int i = 0; i < Cesta.size(); i++)
          {
             cout << "Item " << Cesta[i] << " no valor de " << vCesta[i] << endl;
-                valTotal = 0 + vCesta[i];
          }
          cout << "o total do seu pedido foi de " << valTotal << " reais" << endl;
         wait(2); 
