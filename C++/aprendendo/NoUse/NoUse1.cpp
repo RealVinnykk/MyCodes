@@ -94,13 +94,13 @@ int main(){
 				wait(1);
 				cout << "carregando recursos" << endl;	
 			}else{
-				cout << "senha incorreta" << endl;
+			cout << "senha incorreta" << endl;
 				break;	
 			}
 			}else{
 	cout << "seu nome de usuario não foi encontrado na base de dados, estaremos criando uma nova conta!" << endl;
 	names.push_back(nomeUsuario);
-	cout << names.back() << endl;	
+	
 wait(2);
 	string verificarSenha;
 
@@ -125,12 +125,15 @@ continue;
 
 }
 }
+	bool logado = true;
+cout << "voce fez login..." << endl;
+	while (logado == true){
 	int area;
 
-	cout << "voce fez login..." << endl;
+	
 	menu();
 	cin >> area;
-	
+		int back;
 	if(area == 1){
 		int areaFinanceiro;
 	cout << "voce entrou na area de financeiro do sistema, temos os seguintes aspectos" << endl;
@@ -142,18 +145,42 @@ continue;
 	cout << "3. Orçamentos Disponiveis" << endl;
 	wait(1);
 	cout << "-----===========-----" << endl;
-	cout << "aonde voce deseja ir?" << endl;
+	cout << "aonde voce deseja ir? ( ENTER 0 PARA VOLTAR) " << endl;
 	cin >> areaFinanceiro;
 
 	if(areaFinanceiro == 1){
 	cout << "voce entrou na area de Pagamentos de Funcionarios!" << endl;
-	wait(1);
+	wait(0.7);
 	cout << "aqui voce podera ver o valor pago para cada funcionario" << endl;
+	wait(0.7);
 	cout << " -----==========-----" << endl;
+	wait(0.7);
 	cout << "Funcionario : Roberto" << endl;
+	wait(0.7);
 	cout << "Cargo : Auxiliar Back-End" << endl;
+	wait(0.7);
+	cout << "Salario : 110 mil / Ano" << endl;
+	wait(0.7);
+	cout << "-----===========-----" << endl;
+	wait(0.7);
+	cout << "Funcionario : Carla" << endl;	
+	wait(0.7);
+	cout << "Cargo : Auxiliar Front-End" << endl;
+	wait(0.7);
+	cout << "Salario : 110 mil / Ano" << endl;
+	wait(0.7);
+	cout << "digite qualquer caractere para voltar ao menu financeiro" << endl;
+	cin >> back;
+	if(cin){
+continue;
+}
+}else if(areaFinanceiro == 2){
+	cout << "voce entrou na area de Pagamentos de Serviço!" << endl;
+	wait(1);
+
+}
 	}
-	}
+}
 
 
 			// end of login loop
