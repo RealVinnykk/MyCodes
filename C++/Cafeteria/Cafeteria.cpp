@@ -1,10 +1,11 @@
 #include <algorithm>
 #include <iomanip>
 #include <cctype>
-#include <Windows.h>
 #include <iostream>
 #include <random>
 #include <list>
+#include <chrono>
+#include <thread>
 #include <vector>
 #include <string.h>
 #include <locale.h>
@@ -12,7 +13,7 @@
 using namespace std;
 
 void wait(int sec ){
-    Sleep(sec * 1000);
+	std::this_thread::sleep_for(std::chrono::seconds(sec));
 }
 
 void chars(string name, int time, int takeout){
@@ -22,7 +23,7 @@ void chars(string name, int time, int takeout){
         for (int i = 0; i < name.size(); i++)
         {
            cout << name[i];
-           Sleep(time); 
+           wait(time); 
         }
            cout << "" << endl;
         
@@ -30,7 +31,7 @@ void chars(string name, int time, int takeout){
         for (int i = 0; i < name.size(); i++)
         {
           cout << name[i];
-          Sleep(time); 
+          wait(time); 
         }
         
     }
