@@ -2,7 +2,6 @@
 #include <iomanip>
 #include <fstream>
 #include <cctype>
-#include <Windows.h>
 #include <iostream>
 #include <string.h>
 #include <random>

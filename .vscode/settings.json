@@ -10,7 +10,8 @@
     "vector": "cpp",
     "initializer_list": "cpp",
     "*.tcc": "cpp",
-    "thread": "cpp"
+    "thread": "cpp",
+    "chrono": "cpp"
   },
   "C_Cpp_Runner.msvcBatchPath": "",
   "C_Cpp_Runner.cCompilerPath": "gcc",

@@ -2,6 +2,7 @@
 #include <iomanip>
 #include <cctype>
 #include <iostream>
+#include <fstream>
 #include <random>
 #include <list>
 #include <chrono>
@@ -11,6 +12,20 @@
 #include <locale.h>
 
 using namespace std;
+
+auto tempo = std::chrono::system_clock::now();
+
+std::time_t currentTime = std::chrono::system_clock::to_time_t(tempo);
+
+std::tm* localTime = std::localtime(&currentTime);
+
+int dia = localTime->tm_mday;
+int mes = localTime->tm_mon;
+int ano = localTime->tm_year;
+int hora = localTime->tm_hour;
+int minuto = localTime->tm_min;
+
+std::ofstream arquivoDeSaida("Pedidos.txt");
 
 void wait(int sec ){
 	std::this_thread::sleep_for(std::chrono::seconds(sec));
@@ -225,6 +240,7 @@ int main(){
          {
             cout << "Item " << Cesta[i] << " no valor de " << vCesta[i] << endl;
                 valTotal = 0 + vCesta[i];
+                arquivoDeSaida << "\n" << Cesta[i] << "valor " << vCesta[i] << "\n";
          }
          cout << "o total do seu pedido foi de " << valTotal << " reais" << endl;
         wait(2); 
@@ -232,6 +248,7 @@ int main(){
         wait(2);
         Cesta.clear();
         vCesta.clear();
+    arquivoDeSaida << "\nDia: " << dia << "\nMes: " << mes << "\nAno: " << ano << "\n Hora: " << hora << ":" << minuto;
         cout << "pagamento realizado!" << endl;
         cout << "obrigado por comprar na nossa cafeteria hoje! tenha um bom dia!";
         }
