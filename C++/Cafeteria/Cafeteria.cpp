@@ -15,27 +15,14 @@ void wait(int sec ){
     Sleep(sec * 1000);
 }
 
-void chars(string name, int time, int takeout){
-
-    if (takeout == 1)
+void escrever(string message, int tempo){
+    for (int i = 0; i < message.length(); i++)
     {
-        for (int i = 0; i < name.size(); i++)
-        {
-           cout << name[i];
-           Sleep(time); 
-        }
-           cout << "" << endl;
-        
-    }else{
-        for (int i = 0; i < name.size(); i++)
-        {
-          cout << name[i];
-          Sleep(time); 
-        }
-        
+       cout << message[i]; 
+       wait(tempo);
     }
-    
 
+    cout << endl;
 }
 
 
@@ -209,43 +196,115 @@ int main(){
     
     if (areaMenu == 4 && Cesta.size() > 0)
     {
-        
+        bool pagando = true;
+        int senha = 5235;
+
+        while(pagando == true){
+
         cout << "voce está no caixa, como voce ira pagar?" << endl;
+        wait(0.5);
         cout << "1. Dinheiro";
+        wait(0.5);
         cout << "2. Debito";
+        wait(0.5);
         cout << "3. Credito";
+        wait(0.5);
         cout << "4. ????";
         cin >> metodo;
 
         if (metodo == 1)
         {
          cout << "voce ira pagar seu pedido em dinheiro";
-         for (int i = 0; i < 2; i++)
+        }
+        if (metodo == 2)
+        {
+            bool cartao = true;
+            while (cartao == true)
+            {
+            int inputSenha;
+         cout << "voce ira realizar o pagamento no debito" << endl;
+         wait(2);
+         cout << "digite sua senha: ";
+         cin >> inputSenha;
+
+         if (cin && inputSenha == senha)
          {
-            cout << ".";
+           cout << "senha correta, realizando pagamento...";
+            wait(2);
+            break;            
+
+         }else{
+            wait(2);
+            cout << "senha incorreta! informe sua senha novamente" << endl;
+        break;
          }
-         cout << "." << endl;
+         }
+
+         
+        
+        
+        }
+
+        if (metodo == 3)
+        {
+            bool cartao = true;
+            while (cartao == true)
+            {
+            int inputSenha;
+         cout << "voce ira realizar o pagamento no credito" << endl;
+         wait(2);
+         cout << "digite sua senha: ";
+         cin >> inputSenha;
+
+         if (cin && inputSenha == senha)
+         {
+           cout << "senha correta, realizando pagamento...";
+            wait(2);
+            
+
+         }else{
+            cout << "senha incorreta! informe sua senha novamente" << endl;
+            wait(2);
+            break;
+         }
+         }
+
+        }
+        if (metodo == 4)
+        {
+          cout << "voce encontrou um bilhete no seu bolso..." << endl;
+          wait(2);
+          cout << "o bilhete diz: sua senha é 5235!" << endl;
+        }
+        
+        }
+
 
          cout << "Os itens do seu pedido foram: " << endl;
          for (int i = 0; i < Cesta.size(); i++)
          {
             cout << "Item " << Cesta[i] << " no valor de " << vCesta[i] << endl;
          }
+
          cout << "o total do seu pedido foi de " << valTotal << " reais" << endl;
         wait(2); 
-        cout << "realizando pagamento..." << endl;
+        escrever("realizando pagamento...", 0.5);
         wait(2);
         Cesta.clear();
         vCesta.clear();
         cout << "pagamento realizado!" << endl;
-        cout << "obrigado por comprar na nossa cafeteria hoje! tenha um bom dia!";
+        cout << "obrigado por comprar na nossa cafeteria hoje! tenha um bom dia!" << endl;
+        wait(5);
+
         }
+        
+
         
     }
     
 
 
-    }
+    
 
 
     cout << "LEAVING..." << endl;

@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/vinic/Desktop/MyCodes/C++/Cafeteria",
-      "program": "c:/Users/vinic/Desktop/MyCodes/C++/Cafeteria/build/Debug/outDebug",
+      "cwd": "c:/Users/vinic/Desktop/MyCodes/C++/aprendendo/gerenciandoArquivos",
+      "program": "c:/Users/vinic/Desktop/MyCodes/C++/aprendendo/gerenciandoArquivos/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
