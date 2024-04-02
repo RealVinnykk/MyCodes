@@ -245,7 +245,7 @@ int main(){
         arquivoDeSaida << "Data: " << mes << "/" << dia << "/" << ano << endl;
         arquivoDeSaida << "Cliente: " << nomeCliente << endl;
         arquivoDeSaida << "Itens: " << endl;
-         for (int i = 0; i <= Cesta.size(); i++)
+         for (int i = 0; i < Cesta.size(); i++)
          {
             cout << "Item " << Cesta[i] << " no valor de " << vCesta[i] << endl;
                 valTotal = 0 + vCesta[i];
