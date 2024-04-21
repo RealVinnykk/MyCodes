@@ -1,2 +1,4 @@
 
 LOG DE TESTE
+LOGlog
+LOGloglog
