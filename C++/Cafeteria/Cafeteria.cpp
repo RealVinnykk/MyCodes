@@ -248,10 +248,11 @@ int main(){
          for (int i = 0; i < Cesta.size(); i++)
          {
             cout << "Item " << Cesta[i] << " no valor de " << vCesta[i] << endl;
-                valTotal = 0 + vCesta[i];
+                valTotal += vCesta[i] + 0;
                 arquivoDeSaida << "\n" << Cesta[i] << " valor " << vCesta[i] << "\n";
          }
          cout << "o total do seu pedido foi de " << valTotal << " reais" << endl;
+         arquivoDeSaida << "\n" << "Total do pedido: " << valTotal << endl;
         wait(1); 
         cout << "realizando pagamento..." << endl;
         wait(1);

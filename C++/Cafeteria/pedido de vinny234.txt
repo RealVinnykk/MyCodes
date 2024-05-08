@@ -1,0 +1,16 @@
+Data: 4/23/124
+Cliente: vinny
+Itens: 
+
+Coca-Cola valor 3
+
+Ovo-Frito valor 5
+
+Total do pedido: 6422288
+Data: 4/23/124
+Cliente: vinny
+Itens: 
+
+Macaron valor 5
+
+Total do pedido: 6422285
