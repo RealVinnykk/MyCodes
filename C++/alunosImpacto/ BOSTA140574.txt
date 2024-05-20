@@ -1,0 +1,4 @@
+Nome do aluno:  BOSTA
+Idade do aluno: 2
+Endereço registrado: BOSTA2
+Matricula do aluno: 140574
