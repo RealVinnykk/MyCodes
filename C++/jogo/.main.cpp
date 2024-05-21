@@ -76,11 +76,11 @@ class Player : public Person{
 
 class Enemy : public Person{
 	public:
-	Enemy(string TYPE, int HP, int DEF, int LV){
+	Enemy(string TYPE, int vida, int defes, int LV){
 	NOME = TYPE;
 	LEVEL = LV;
-	HP = HP * LV;
-	DEF = DEF * LV;
+	HP = vida * LV;
+	DEF = defes * LV;
 	}
 
 };
@@ -100,7 +100,6 @@ cout << "Os seus stats são os seguintes: " << endl;
 jogador->stats();
 wait(.5);
 
-
 bool jogando = true;
 
 while (jogando == true){
@@ -110,24 +109,69 @@ if (randomNumber == 0){
 Enemy assasino = Enemy("Assasino", 5, 10, 1);
 cout << "um assasino apareceu! " << endl;
 wait(1);
-
+while(assasino.HP > 0 || jogador->HP > 0){ 
 assasino.stats();
 
 int oquefez = jogador->acoes();
 
 if (oquefez == 1){
 
-cout << "EITA PORRA" << endl;
+cout << "voce usou seu ataque fraco!" << endl;
+assasino.HP -= jogador->ATK1;
 
+
+}else if(oquefez == 2){
+cout << "voce usou seu ataque forte!" << endl;
+assasino.HP -= jogador->ATK2;
+wait(1);
+}else if(oquefez == 3){
+if(jogador->HP - 3 < jogador->HP){
+cout << "voce se curou e recuperou 3 de HP!" << endl;
+jogador->cura();
+wait(1);
+}else{
+cout << "voce nao pode se curar agora!" << endl;
+wait(1);
 }
+}
+}
+}
+if(randomNumber == 1){
 
+Enemy orc = Enemy("Orc", 10, 5, 1);
+cout << "um orc apareceu!" << endl;
 
+while(orc.HP > 0 || jogador->HP > 0){
+orc.stats();
+int oquefez = jogador->acoes();
+if (oquefez == 1){
+cout << "voce usou seu ataque fraco!" << endl;
+orc.HP -= jogador->ATK1;
+wait(1);
+}
+if(oquefez == 2){
+cout << "voce usou seu ataque forte!" << endl;
+wait(1);
+orc.HP -= jogador->ATK2;
+}
+if(oquefez == 3 && jogador->HP - 3 > jogador->HP){
+cout << "voce nao pode se curar agora!" << endl;
+wait(1);
+cout << "voce perdeu sua vez!" << endl;
+}
+if(oquefez == 3 && jogador->HP - 3 <= jogador->HP){
+cout << "voce curou 3 de HP! " << endl;
+jogador->cura();
+wait(1);
+}
 }else if(randomNumber == 1 ){
 Enemy orc = Enemy("Orc", 10, 5, 1);
 cout << " um orc apareceu! " << endl;
 } 
 }
 
+}
+}
 
 
 cout << "presione ENTER para sair" << endl;
