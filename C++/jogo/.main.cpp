@@ -144,7 +144,6 @@ cout << "um orc apareceu!" << endl;
 while(orc.HP > 0 || jogador->HP > 0){
 orc.stats();
 int oquefez = jogador->acoes();
-
 if (oquefez == 1){
 cout << "voce usou seu ataque fraco!" << endl;
 orc.HP -= jogador->ATK1;
@@ -165,6 +164,10 @@ cout << "voce curou 3 de HP! " << endl;
 jogador->cura();
 wait(1);
 }
+}else if(randomNumber == 1 ){
+Enemy orc = Enemy("Orc", 10, 5, 1);
+cout << " um orc apareceu! " << endl;
+} 
 }
 
 }
