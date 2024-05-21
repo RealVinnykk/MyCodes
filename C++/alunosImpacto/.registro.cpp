@@ -97,12 +97,16 @@ cin.ignore();
 
     string comando = "mv " + ALUNONOVO + " ." + ALUNONOVO;
     int result = system(comando.c_str());
-
+	
+   
+    
     arquivoNovo << "Nome do aluno: " << Aluno.Name << endl;
     arquivoNovo << "Idade do aluno: " << Aluno.Age << endl;
     arquivoNovo << "Endereço registrado: " << Aluno.Address << endl;
     arquivoNovo << "Matricula do aluno: " << randomNumber << endl;
 
+ string mover = "mv ." + ALUNONOVO + " .Alunos";
+ 	int result2 = system(mover.c_str());
     auto end = std::chrono::steady_clock::now();
     auto duration = std::chrono::duration_cast<std::chrono::seconds>(end - start);
 
