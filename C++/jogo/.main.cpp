@@ -101,8 +101,6 @@ jogador->stats();
 wait(.5);
 
 
-Enemy orc = Enemy("Orc", 10, 5, 1);
-
 bool jogando = true;
 
 while (jogando == true){
@@ -124,7 +122,10 @@ cout << "EITA PORRA" << endl;
 }
 
 
-}
+}else if(randomNumber == 1 ){
+Enemy orc = Enemy("Orc", 10, 5, 1);
+cout << " um orc apareceu! " << endl;
+} 
 }
 
 
