@@ -101,9 +101,12 @@ jogador->stats();
 wait(.5);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> d58b2a2dd2d8635f3802e033c46248f3d0e79583
+=======
+>>>>>>> cf9c7942c97e520d8edbb0429ce909612b670fd5
 bool jogando = true;
 
 while (jogando == true){
@@ -146,10 +149,12 @@ Enemy orc = Enemy("Orc", 10, 5, 1);
 cout << "um orc apareceu!" << endl;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf9c7942c97e520d8edbb0429ce909612b670fd5
 while(orc.HP > 0 || jogador->HP > 0){
 orc.stats();
 int oquefez = jogador->acoes();
-
 if (oquefez == 1){
 cout << "voce usou seu ataque fraco!" << endl;
 orc.HP -= jogador->ATK1;
@@ -170,12 +175,18 @@ cout << "voce curou 3 de HP! " << endl;
 jogador->cura();
 wait(1);
 }
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> cf9c7942c97e520d8edbb0429ce909612b670fd5
 }else if(randomNumber == 1 ){
 Enemy orc = Enemy("Orc", 10, 5, 1);
 cout << " um orc apareceu! " << endl;
 } 
+<<<<<<< HEAD
 >>>>>>> d58b2a2dd2d8635f3802e033c46248f3d0e79583
+=======
+>>>>>>> cf9c7942c97e520d8edbb0429ce909612b670fd5
 }
 
 }
