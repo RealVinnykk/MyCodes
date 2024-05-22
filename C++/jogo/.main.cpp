@@ -100,6 +100,10 @@ cout << "Os seus stats são os seguintes: " << endl;
 jogador->stats();
 wait(.5);
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> d58b2a2dd2d8635f3802e033c46248f3d0e79583
 bool jogando = true;
 
 while (jogando == true){
@@ -141,6 +145,7 @@ if(randomNumber == 1){
 Enemy orc = Enemy("Orc", 10, 5, 1);
 cout << "um orc apareceu!" << endl;
 
+<<<<<<< HEAD
 while(orc.HP > 0 || jogador->HP > 0){
 orc.stats();
 int oquefez = jogador->acoes();
@@ -165,6 +170,12 @@ cout << "voce curou 3 de HP! " << endl;
 jogador->cura();
 wait(1);
 }
+=======
+}else if(randomNumber == 1 ){
+Enemy orc = Enemy("Orc", 10, 5, 1);
+cout << " um orc apareceu! " << endl;
+} 
+>>>>>>> d58b2a2dd2d8635f3802e033c46248f3d0e79583
 }
 
 }
