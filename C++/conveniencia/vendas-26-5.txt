@@ -1,0 +1,33 @@
+Abrindo ticket de venda as : 18:59 horas
+Vendedor : vinicius
+Produto COD : 6972983059761
+Nome : Fone de ouvido
+Valor : 150
+Horario de venda do produto : 18:59
+=====----------=====
+Produto COD : 6972983059761
+Nome : Fone de ouvido
+Valor : 150
+Horario de venda do produto : 18:59
+=====----------=====
+Produto COD : 6972983059761
+Nome : Fone de ouvido
+Valor : 150
+Horario de venda do produto : 18:59
+=====----------=====
+Produto COD : 7896806700069
+Nome : Talco
+Valor : 7
+Horario de venda do produto : 18:59
+=====----------=====
+Produto COD : 7896806700069
+Nome : Talco
+Valor : 7
+Horario de venda do produto : 18:59
+=====----------=====
+ 
+=====----------=====
+Fechando vendas horario : 18:59
+Vendas Totais do turno: 464$
+=====---------=====
+  

@@ -1,0 +1,8 @@
+Cliente: real
+ cadastrado com CPF : 12312312323
+Item Fone de ouvido adicionado ao historico do cliente!
+Item Fone de ouvido adicionado ao historico do cliente!
+Item Fone de ouvido adicionado ao historico do cliente!
+Item Talco adicionado ao historico do cliente!
+Item Talco adicionado ao historico do cliente!
+Valor total das compras do cliente : 493
