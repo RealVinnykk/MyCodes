@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/vinic/Desktop/MyCodes/C++/alunosImpacto",
-      "program": "c:/Users/vinic/Desktop/MyCodes/C++/alunosImpacto/build/Debug/outDebug",
+      "cwd": "c:/Users/vinic/Desktop/MyCodes/C++/conveniencia",
+      "program": "c:/Users/vinic/Desktop/MyCodes/C++/conveniencia/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
