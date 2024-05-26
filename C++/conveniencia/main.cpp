@@ -91,26 +91,28 @@ for (int i = 0; i < Produtos.size(); i++)
 
 	if (Produtos[i].encontrarCOD(CODPROD) == true )
 	{
+
 		Cesta.push_back(Produtos[i].Nome);
 		valor.push_back(Produtos[i].Valor);
 		cout << "produto " << Produtos[i].Nome << " no valor de " << Produtos[i].Valor << " Reais foi vendido!" << endl;
 		Vendas << "Produto " << Produtos[i].Nome << " Valor " << Produtos[i].Valor << " Horario " << hora << ":" << minuto << endl;
 		wait(1);
+		cin.ignore();
+
 		break;
-	}
+		}
 	
 }
 
+if(cin.fail()){
 
+	Vendas.close();
+
+break;
 }
 
 
-
-
-
-
-
-
+}
 
 cout << "enter para sair" << endl;
 cin.get();

@@ -17,7 +17,7 @@ int main(){
 
     arquivoDeSaida.open("Log.txt", std::ios_base::app);
 
-    arquivoDeSaida << "\nLOG DE TESTE\n";
+    arquivoDeSaida << "\nCU\n";
 
     arquivoDeSaida.close();
 
