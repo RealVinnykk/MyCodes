@@ -1,9 +1,0 @@
-Cliente: teste real
- cadastrado com CPF : 12312312323
-Item Talco adicionado ao historico do cliente!
-Item Talco adicionado ao historico do cliente!
-Valor total das compras do cliente : 43
-Cliente: teste real
- cadastrado com CPF : 12312312323
-Item Talco adicionado ao historico do cliente!
-Valor total das compras do cliente : 36

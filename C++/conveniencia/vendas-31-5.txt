@@ -1,0 +1,18 @@
+Abrindo ticket de venda as : 18:9 horas
+Vendedor : vinny
+Produto COD : 7896806700069
+Nome : Talco
+Valor : 7
+Horario de venda do produto : 18:9
+=====----------=====
+Produto COD : 7896806700069
+Nome : Talco
+Valor : 7
+Horario de venda do produto : 18:9
+=====----------=====
+ 
+=====----------=====
+Fechando vendas horario : 18:9
+Vendas Totais do turno: 32779$
+=====---------=====
+  

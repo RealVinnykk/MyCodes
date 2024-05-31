@@ -44,6 +44,30 @@ void wait(int sec){
 	std::this_thread::sleep_for(std::chrono::seconds(sec));
 }
 
+
+ofstream teste(const string& novoCadastro){
+
+
+string nomeCliente;
+long cpfCliente;
+	cin.ignore();
+	cout << "Informe o nome do cliente(primeiro e ultimo):";
+	getline(cin, nomeCliente);	
+
+
+	cout << "Informe o CPF do cliente:";
+	cin >> cpfCliente;
+
+		nomeCliente = nomeCliente + ".txt";	
+	
+	ofstream ClienteNovo(nomeCliente, std::ios::out | std::ios::trunc);	
+	ClienteNovo << "Cliente: " <<  nomeCliente << endl;
+	ClienteNovo << " cadastrado com CPF : " << cpfCliente << endl;
+
+return ClienteNovo;
+}
+
+	
 auto tempo = std::chrono::system_clock::now();
 
 std::time_t currentTime = std::chrono::system_clock::to_time_t(tempo);
@@ -83,7 +107,6 @@ bool encontrou = false;
 bool pedindo = false;
 int vendaTotal;
 string NOMEVENDEDOR;
-string cadastrarCliente;
 string comprasCliente;
 pedindo = true;
 
@@ -96,38 +119,23 @@ cout << "digite seu nome para comecar o atendimento!" << endl;
 cin >> NOMEVENDEDOR;
 
 
-cout << "Deseja identificar o cliente?" << endl;
+string cadastrarCliente;
+cout << "deseja cadastrar o cliente?:";
 cin >> cadastrarCliente;
 
-
-if(cadastrarCliente == "sim"){
-
-
-string nomeCliente;
-long cpfCliente;
-	cin.ignore();
-	cout << "Informe o nome do cliente(primeiro e ultimo):";
-	getline(cin, nomeCliente);	
-
-
-	cout << "Informe o CPF do cliente:";
-	cin >> cpfCliente;
-	
-
-	string novoCadastro = nomeCliente + ".txt";
-	
-	ofstream ClienteNovo;
-	ClienteNovo.open(novoCadastro, std::ios_base::app);
-	ClienteNovo << "Cliente: " <<  nomeCliente << endl;
-	ClienteNovo << " cadastrado com CPF : " << cpfCliente << endl;
-
-}
+ofstream ClienteNovo = teste(cadastrarCliente);
 
 Vendas << "Abrindo ticket de venda as : " << hora << ":" << minuto << " horas" << endl;
 Vendas << "Vendedor : " << NOMEVENDEDOR << endl;
 
+		ofstream COMANDOS;
+		COMANDOS.open("COMANDOS.txt", ios_base::app);
+
+		COMANDOS << "USE VENDAS;" << endl;
+
 while (pedindo == true)
 {
+
 
 cout << " insira o codigo do produto:" << endl;
 cin >> CODPROD;
@@ -137,18 +145,20 @@ for (int i = 0; i < Produtos.size(); i++)
 
 	if (Produtos[i].encontrarCOD(CODPROD) == true )
 	{
-	
+
 		cout << "produto " << Produtos[i].Nome << " no valor de " << Produtos[i].Valor << " Reais foi vendido!" << endl;
 		Vendas << "Produto COD : " << CODPROD << endl;
 		Vendas << "Nome : " << Produtos[i].Nome << endl;
 		Vendas << "Valor : " << Produtos[i].Valor << endl;
 		Vendas << "Horario de venda do produto : " << hora << ":" << minuto << endl;
-		Vendas << "=====----------=====" << endl;
+		Vendas << "=====----------=====" << endl;	
+
+
+		COMANDOS << "INSERT vendas01 values (\"" <<Produtos[i].Nome <<"\", " <<Produtos[i].Valor <<"," <<"\" " <<hora <<":" <<minuto <<"\");"  << endl;
 		
-		if(ClienteNovo.is_open()){	
-		ClienteNovo << " comprou " << Produtos[i].Nome << " no valor de " << Produto[i].Nome << " as " << hora << "|" << minuto << " horas" << endl;
-			
-		}
+
+		ClienteNovo << " comprou " << Produtos[i].Nome << " no valor de " << Produtos[i].Nome << " as " << hora << "|" << minuto << " horas" << endl;
+		
 		vendaTotal += Produtos[i].Valor;	
 		cin.ignore();
 		cin.clear();
@@ -179,7 +189,7 @@ cin >> metodoPagamento;
 Vendas << " Pagamento foi efetuado como : " << metodoPagamento << endl;
 cout << "SAINDO" << endl;
 
-
+system("sudo mysql -u root -p < COMANDOS.txt");
 // end of main
 }
 
