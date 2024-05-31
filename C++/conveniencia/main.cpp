@@ -63,6 +63,8 @@ int main(){
 string VendasDia = "vendas-" + to_string(dia) +"-"+ to_string(mes) +".txt";
 ofstream Vendas;
 Vendas.open(VendasDia, std::ios_base::app);
+string metodoPagamento;
+
 
 if (!Vendas.is_open()) {
         cerr << "Failed to open file: " << VendasDia << endl;
@@ -82,7 +84,7 @@ bool pedindo = false;
 int vendaTotal;
 string NOMEVENDEDOR;
 string cadastrarCliente;
-
+string comprasCliente;
 pedindo = true;
 
 int hora = localTime->tm_hour;
@@ -103,8 +105,9 @@ if(cadastrarCliente == "sim"){
 
 string nomeCliente;
 long cpfCliente;
-	cout << "Informe o nome do cliente:";
-	cin >> nomeCliente;
+	cin.ignore();
+	cout << "Informe o nome do cliente(primeiro e ultimo):";
+	getline(cin, nomeCliente);	
 
 
 	cout << "Informe o CPF do cliente:";
@@ -117,60 +120,9 @@ long cpfCliente;
 	ClienteNovo.open(novoCadastro, std::ios_base::app);
 	ClienteNovo << "Cliente: " <<  nomeCliente << endl;
 	ClienteNovo << " cadastrado com CPF : " << cpfCliente << endl;
-Vendas << "Abrindo ticket de venda as : " << hora << ":" << minuto << " horas" << endl;
-Vendas << "Vendedor : " << NOMEVENDEDOR << endl;
-	while (pedindo == true)
-{
-
-
-
-cout << " insira o codigo do produto:" << endl;
-cin >> CODPROD;
-
-int comprasCliente;
-for (int i = 0; i < Produtos.size(); i++)
-{
-
-	if (Produtos[i].encontrarCOD(CODPROD) == true )
-	{
-	
-		cout << "produto " << Produtos[i].Nome << " no valor de " << Produtos[i].Valor << " Reais foi vendido!" << endl;
-		Vendas << "Produto COD : " << CODPROD << endl;
-		Vendas << "Nome : " << Produtos[i].Nome << endl;
-		Vendas << "Valor : " << Produtos[i].Valor << endl;
-		Vendas << "Horario de venda do produto : " << hora << ":" << minuto << endl;
-		Vendas << "=====----------=====" << endl;
-		
-		ClienteNovo << "Item " << Produtos[i].Nome << " adicionado ao historico do cliente!" << endl;
-	        comprasCliente += Produtos[i].Valor;	
-
-		vendaTotal += Produtos[i].Valor;	
-		cin.ignore();
-
-
-		break;
-		}
-	
-}
-
-if(cin.fail()){
-	ClienteNovo << "Valor total das compras do cliente : " << comprasCliente << endl;
-	ClienteNovo.close();
-	Vendas << " " << endl;
-	Vendas << "=====----------=====" << endl;
-	Vendas << "Fechando vendas horario : " << hora << ":" << minuto << endl;
-	Vendas << "Vendas Totais do turno: " << vendaTotal  << "$" << endl;
-	Vendas << "=====---------=====" << endl;
-	Vendas << "  " << endl;
-	Vendas.close();
-	cin.ignore();
-
-break;
-}
-
 
 }
-}
+
 Vendas << "Abrindo ticket de venda as : " << hora << ":" << minuto << " horas" << endl;
 Vendas << "Vendedor : " << NOMEVENDEDOR << endl;
 
@@ -193,11 +145,13 @@ for (int i = 0; i < Produtos.size(); i++)
 		Vendas << "Horario de venda do produto : " << hora << ":" << minuto << endl;
 		Vendas << "=====----------=====" << endl;
 		
-
-
+		if(ClienteNovo.is_open()){	
+		ClienteNovo << " comprou " << Produtos[i].Nome << " no valor de " << Produto[i].Nome << " as " << hora << "|" << minuto << " horas" << endl;
+			
+		}
 		vendaTotal += Produtos[i].Valor;	
 		cin.ignore();
-
+		cin.clear();
 
 		break;
 		}
@@ -205,22 +159,25 @@ for (int i = 0; i < Produtos.size(); i++)
 }
 
 if(cin.fail()){
+	
+	cout << "Valor a ser cobrado : " <<  vendaTotal << endl; 
+	
+break;
+}
+
+
+}
 	Vendas << " " << endl;
 	Vendas << "=====----------=====" << endl;
 	Vendas << "Fechando vendas horario : " << hora << ":" << minuto << endl;
 	Vendas << "Vendas Totais do turno: " << vendaTotal  << "$" << endl;
 	Vendas << "=====---------=====" << endl;
 	Vendas << "  " << endl;
-	Vendas.close();
-
-break;
-}
-
-
-}
-
+	Vendas.close();	
+cout << "Forma de pagamento: ";
+cin >> metodoPagamento;
+Vendas << " Pagamento foi efetuado como : " << metodoPagamento << endl;
 cout << "SAINDO" << endl;
-cin.get();
 
 
 // end of main

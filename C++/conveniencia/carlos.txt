@@ -1,0 +1,6 @@
+Cliente: carlos
+ cadastrado com CPF : 12312312312
+Item Fone de ouvido adicionado ao historico do cliente!
+Item Fone de ouvido adicionado ao historico do cliente!
+Item Fone de ouvido adicionado ao historico do cliente!
+Valor total das compras do cliente : 479
