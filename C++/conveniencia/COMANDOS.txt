@@ -1,3 +1,10 @@
 USE VENDAS;
 INSERT vendas01 values ("Talco", 7," 18:9");
 INSERT vendas01 values ("Talco", 7," 18:9");
+USE VENDAS;
+INSERT vendas01 values ("Talco", 7," 18:28");
+INSERT vendas01 values ("Talco", 7," 18:28");
+INSERT vendas01 values ("Talco", 7," 18:28");
+INSERT vendas01 values ("Talco", 7," 18:28");
+INSERT vendas01 values ("Talco", 7," 18:28");
+INSERT vendas01 values ("Talco", 7," 18:28");

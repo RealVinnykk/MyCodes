@@ -190,7 +190,9 @@ Vendas << " Pagamento foi efetuado como : " << metodoPagamento << endl;
 cout << "SAINDO" << endl;
 
 system("sudo mysql -u root -p < COMANDOS.txt");
+system("rm COMANDOS.txt");
 // end of main
+
 }
 
 
