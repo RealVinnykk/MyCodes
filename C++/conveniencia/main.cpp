@@ -133,6 +133,9 @@ Vendas << "Vendedor : " << NOMEVENDEDOR << endl;
 
 		COMANDOS << "USE VENDAS;" << endl;
 
+cout << "Forma de pagamento: ";
+cin >> metodoPagamento;
+
 while (pedindo == true)
 {
 
@@ -154,7 +157,7 @@ for (int i = 0; i < Produtos.size(); i++)
 		Vendas << "=====----------=====" << endl;	
 
 
-		COMANDOS << "INSERT vendas01 values (\"" <<Produtos[i].Nome <<"\", " <<Produtos[i].Valor <<"," <<"\" " <<hora <<":" <<minuto <<"\");"  << endl;
+		COMANDOS << "INSERT vendas01 values (\"" <<Produtos[i].Nome <<"\"," << Produtos[i].Valor <<", \"" << hora << ":" <<minuto <<"\", \"" << metodoPagamento << "\");"   << endl;
 		
 
 		ClienteNovo << " comprou " << Produtos[i].Nome << " no valor de " << Produtos[i].Nome << " as " << hora << "|" << minuto << " horas" << endl;
@@ -184,12 +187,11 @@ break;
 	Vendas << "=====---------=====" << endl;
 	Vendas << "  " << endl;
 	Vendas.close();	
-cout << "Forma de pagamento: ";
-cin >> metodoPagamento;
 Vendas << " Pagamento foi efetuado como : " << metodoPagamento << endl;
 cout << "SAINDO" << endl;
 
 system("sudo mysql -u root -p < COMANDOS.txt");
+wait(1);
 system("rm COMANDOS.txt");
 // end of main
 

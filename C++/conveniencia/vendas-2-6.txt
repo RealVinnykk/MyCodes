@@ -1,0 +1,18 @@
+Abrindo ticket de venda as : 16:35 horas
+Vendedor : vinicius
+Produto COD : 7908077450632
+Nome : Agenda
+Valor : 5
+Horario de venda do produto : 16:35
+=====----------=====
+Produto COD : 7908077450632
+Nome : Agenda
+Valor : 5
+Horario de venda do produto : 16:35
+=====----------=====
+ 
+=====----------=====
+Fechando vendas horario : 16:35
+Vendas Totais do turno: 32776$
+=====---------=====
+  
