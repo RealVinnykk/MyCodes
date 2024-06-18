@@ -197,6 +197,8 @@ system("rm COMANDOS.txt");
 
 }
 
+//please add new SQL to upload orders
+
 
 
 
