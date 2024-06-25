@@ -15,6 +15,11 @@
 
 using namespace std;
 
+
+void wait(int sec){
+	Sleep(sec);
+}
+
 class Product{
 	public:
 long long COD;
@@ -23,9 +28,9 @@ int Valor;
 
 
 Product(long long codigo, int preco, string nome){
-	Nome = nome;
-	Valor = preco;
-	COD = codigo;
+Nome = nome;
+Valor = preco;
+COD = codigo;
 }
 
 bool encontrarCOD(long long codigin){
@@ -39,11 +44,13 @@ bool encontrarCOD(long long codigin){
 	
 }
 
+int pegarValor(){
+	return Valor;
+}
+
 };
 
-void wait(int sec){
-	Sleep(sec);
-}
+vector<Product> Produtos;
 
 
 ofstream teste(const string& novoCadastro){
@@ -91,24 +98,23 @@ ofstream Vendas;
 Vendas.open(VendasDia, std::ios_base::app);
 string metodoPagamento;
 
+Produtos.push_back(Product(7891253264157, 25, "Caderno"));
+Produtos.push_back(Product(7896049528604, 10, "Herbissimo"));
+Produtos.push_back(Product(7908077450632, 5, "Agenda"));
+Produtos.push_back(Product(7896806700069, 7, "Talco"));
+Produtos.push_back(Product(6972983059761, 150, "Fone de ouvido"));
+Produtos.push_back(Product(7898964526123, 15, "Manteiga"));
+Produtos.push_back(Product(7908262910620, 5, "Pericles"));
 
 if (!Vendas.is_open()) {
         cerr << "Failed to open file: " << VendasDia << endl;
         return 1; // Exit if the file cannot be opened
 }
 
-vector<Product> Produtos;
-
-Produtos.push_back(Product(7896049528604, 10, "Herbissimo"));
-Produtos.push_back(Product(7908077450632, 5, "Agenda"));
-Produtos.push_back(Product(7896806700069, 7, "Talco"));
-Produtos.push_back(Product(6972983059761, 150, "Fone de ouvido"));
-Produtos.push_back(Product(7898964526123, 15, "Manteiga"));
-
 
 bool encontrou = false;
 bool pedindo = false;
-int vendaTotal;
+int vendaTotal = 0;
 string NOMEVENDEDOR;
 string comprasCliente;
 pedindo = true;
@@ -134,7 +140,6 @@ Vendas << "Vendedor : " << NOMEVENDEDOR << endl;
 cout << "Forma de pagamento: ";
 cin >> metodoPagamento;
 
-cin.ignore();
 
 while (pedindo == true)
 {
@@ -162,22 +167,19 @@ for (int i = 0; i < Produtos.size(); i++)
 
 		ClienteNovo << " comprou " << Produtos[i].Nome << " no valor de " << Produtos[i].Nome << " as " << hora << "|" << minuto << " horas" << endl;
 		
-		vendaTotal += Produtos[i].Valor;	
-		cin.ignore();
+		vendaTotal += Produtos[i].Valor;
+		cin.ignore();	
 		cin.clear();
 
 		break;
-		}else{
-			cout << "produto não cadastrado!" << endl;
-			break;
-
 		}
-	
+//^ tentando arrumar o print e adição do valor em @vendaTotal	
+
 }
 
 if(cin.fail()){
-	
-	cout << "Valor a ser cobrado : " <<  vendaTotal << endl; 
+	wait(1);	
+cout << "Valor a ser cobrado: " << vendaTotal << endl; 
 	
 break;
 }
@@ -187,7 +189,7 @@ break;
 	Vendas << " " << endl;
 	Vendas << "=====----------=====" << endl;
 	Vendas << "Fechando vendas horario : " << hora << ":" << minuto << endl;
-	Vendas << "Vendas Totais do turno: " << vendaTotal  << "$" << endl;
+	Vendas << "Vendas Totais do turno: " << vendaTotal << "$" << endl;
 	Vendas << "=====---------=====" << endl;
 	Vendas << "  " << endl;
 	Vendas.close();	
