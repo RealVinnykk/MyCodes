@@ -1,32 +1,23 @@
 
-# My Codes
+# My Codes 
 
-A repository with my codes, I'll try to keep it updated and 
-organized to go along with my changes 
+A repository made do go along with my codes from all lenguages I try to use, from JS, to BAT scripts
 
-
-
-## To contact me, Vinny, contact via gmail, social media or Github!
+## For contact, use email, but not guarantee I'll be responding fast
 
 - Gmail : vinipinheiro187@gmail.com
-- [Github](https://www.github.com/octokatherine)
-- [Instagram](instagram.com/real.lopezz)
-- [X](www.x.com/profile/RealVinnykk)
 
 ## Contributions 
-
-know contributors 
+### Listing know contributors for control of people who use this repo
+ 
 RealVinnykk ( Owner ) 
+
 Cobaltopereira ( First Outsider ) 
 
+If you have access to this repository, you are free to help on any projects that are in development 
 
-If you have access to this repository, you are free to help !
+But, before doing changes or working on projects that are not yours, please do the following :
 
-But please verify the following boxes to make things easier to follow and control 
-
-- [X] Does my commit makes it easy to know what I did ? 
-- [X] Did I make a big change ? if yes contact the owner 
-- [X] Am I having fun ? make sure you enjoy doing this !  
-
-
-![Logo](https://github.com/RealVinnykk/MyCodes/blob/main/Vinny.png)
+- [X] Contact the owner of the project and ask if he wants help, if not, inform him that you want to have a copy of the project 
+- [X] If the owner of the project accepts your help, please document what are you doing to make workflow simple and understandable
+- [X] Have fun
