@@ -1,0 +1,3251 @@
+
+NOME_DO_SERVIÄO: AppHostSvc
+NOME_PARA_EXIBIÄ«O: Serviáo Auxiliar de Host do Aplicativo
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: Appinfo
+NOME_PARA_EXIBIÄ«O: Informaá‰es sobre Aplicativos
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: AppXSvc
+NOME_PARA_EXIBIÄ«O: Serviáo de Implantaá∆o AppX (AppXSVC)
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: AudioEndpointBuilder
+NOME_PARA_EXIBIÄ«O: Construtor de Pontos de Extremidade de µudio do Windows
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: Audiosrv
+NOME_PARA_EXIBIÄ«O: µudio do Windows
+    TIPO                       : 10  WIN32_OWN_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: BFE
+NOME_PARA_EXIBIÄ«O: Mecanismo de Filtragem B†sica
+    TIPO                       : 20  WIN32_SHARE_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: BITS
+NOME_PARA_EXIBIÄ«O: Serviáo de Transferància Inteligente em Segundo Plano
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_PRESHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: BrokerInfrastructure
+NOME_PARA_EXIBIÄ«O: Serviáo de Infraestrutura de Tarefas de Segundo Plano
+    TIPO                       : 20  WIN32_SHARE_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (NOT_STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: BTAGService
+NOME_PARA_EXIBIÄ«O: Serviáo de Gateway Bluetooth de µudio
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: BthAvctpSvc
+NOME_PARA_EXIBIÄ«O: Serviáo AVCTP
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: bthserv
+NOME_PARA_EXIBIÄ«O: Serviáo de Suporte a Bluetooth
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: camsvc
+NOME_PARA_EXIBIÄ«O: Serviáo do Gerenciador de Acesso de Recurso
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: CDPSvc
+NOME_PARA_EXIBIÄ«O: Serviáo de Plataforma de Dispositivos Conectados
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: ClickToRunSvc
+NOME_PARA_EXIBIÄ«O: Microsoft Office Click-to-Run Service
+    TIPO                       : 10  WIN32_OWN_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: ClipSVC
+NOME_PARA_EXIBIÄ«O: Serviáo de Licenáas de Cliente (ClipSVC)
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: CoreMessagingRegistrar
+NOME_PARA_EXIBIÄ«O: CoreMessaging
+    TIPO                       : 20  WIN32_SHARE_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (NOT_STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: cplspcon
+NOME_PARA_EXIBIÄ«O: Intel(R) Content Protection HDCP Service
+    TIPO                       : 10  WIN32_OWN_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: CryptSvc
+NOME_PARA_EXIBIÄ«O: Serviáos de criptografia
+    TIPO                       : 10  WIN32_OWN_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: DcomLaunch
+NOME_PARA_EXIBIÄ«O: Inicializador do Processo de Servidor DCOM
+    TIPO                       : 20  WIN32_SHARE_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (NOT_STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: DeviceAssociationService
+NOME_PARA_EXIBIÄ«O: Serviáo de Associaá∆o de Dispositivo
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: DeviceInstall
+NOME_PARA_EXIBIÄ«O: Serviáo de Instalaá∆o de Dispositivo
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_PRESHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: DevQueryBroker
+NOME_PARA_EXIBIÄ«O: Agente de Descoberta em Segundo Plano de DevQuery
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: Dhcp
+NOME_PARA_EXIBIÄ«O: Cliente DHCP
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: DiagTrack
+NOME_PARA_EXIBIÄ«O: Experiàncias do Usu†rio Conectado e Telemetria
+    TIPO                       : 10  WIN32_OWN_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_PRESHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: DispBrokerDesktopSvc
+NOME_PARA_EXIBIÄ«O: Exibir Serviáo de Pol°tica
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: DisplayEnhancementService
+NOME_PARA_EXIBIÄ«O: Serviáo de Aprimoramento de Exibiá∆o
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: Dnscache
+NOME_PARA_EXIBIÄ«O: Cliente DNS
+    TIPO                       : 10  WIN32_OWN_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (NOT_STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: DPS
+NOME_PARA_EXIBIÄ«O: Serviáo de Pol°tica de Diagn¢stico
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: DSAService
+NOME_PARA_EXIBIÄ«O: Intel(R) Driver & Support Assistant
+    TIPO                       : 10  WIN32_OWN_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: DSAUpdateService
+NOME_PARA_EXIBIÄ«O: Intel(R) Driver & Support Assistant Updater
+    TIPO                       : 10  WIN32_OWN_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: DusmSvc
+NOME_PARA_EXIBIÄ«O: Uso de Dados
+    TIPO                       : 10  WIN32_OWN_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: EFS
+NOME_PARA_EXIBIÄ«O: EFS (Encrypting File System)
+    TIPO                       : 20  WIN32_SHARE_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (NOT_STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: esifsvc
+NOME_PARA_EXIBIÄ«O: Intel(R) Dynamic Tuning service
+    TIPO                       : 10  WIN32_OWN_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, PAUSABLE, ACCEPTS_PRESHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: ESRV_SVC_QUEENCREEK
+NOME_PARA_EXIBIÄ«O: Energy Server Service queencreek
+    TIPO                       : 10  WIN32_OWN_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_PRESHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: EventLog
+NOME_PARA_EXIBIÄ«O: Log de Eventos do Windows
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: EventSystem
+NOME_PARA_EXIBIÄ«O: COM+ evento do sistema
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: FontCache
+NOME_PARA_EXIBIÄ«O: Serviáo de Cache de Fontes do Windows
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: FontCache3.0.0.0
+NOME_PARA_EXIBIÄ«O: Windows Presentation Foundation Font Cache 3.0.0.0
+    TIPO                       : 10  WIN32_OWN_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: FrameServer
+NOME_PARA_EXIBIÄ«O: Servidor de Quadros de CÉmera do Windows
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: ftpsvc
+NOME_PARA_EXIBIÄ«O: Microsoft FTP Service
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: GamingServices
+NOME_PARA_EXIBIÄ«O: Gaming Services
+    TIPO                       : 210  WIN32_PACKAGED_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: GamingServicesNet
+NOME_PARA_EXIBIÄ«O: Gaming Services
+    TIPO                       : 210  WIN32_PACKAGED_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: gpsvc
+NOME_PARA_EXIBIÄ«O: Cliente da Pol°tica de Grupo
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_PRESHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: HNS
+NOME_PARA_EXIBIÄ«O: Serviáo de Rede Host
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_PRESHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: HvHost
+NOME_PARA_EXIBIÄ«O: Serviáo de Host HV
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: igccservice
+NOME_PARA_EXIBIÄ«O: Intel(R) Graphics Command Center Service
+    TIPO                       : 10  WIN32_OWN_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: igfxCUIService2.0.0.0
+NOME_PARA_EXIBIÄ«O: Intel(R) HD Graphics Control Panel Service
+    TIPO                       : 10  WIN32_OWN_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: IKEEXT
+NOME_PARA_EXIBIÄ«O: M¢dulos de Criaá∆o de Chaves IKE e AuthIP do IPSec
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: InstallService
+NOME_PARA_EXIBIÄ«O: Serviáo de Instalaá∆o da Microsoft Store
+    TIPO                       : 10  WIN32_OWN_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: Intel(R) TPM Provisioning Service
+NOME_PARA_EXIBIÄ«O: Intel(R) TPM Provisioning Service
+    TIPO                       : 10  WIN32_OWN_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: IntelArcControlService
+NOME_PARA_EXIBIÄ«O: Intel(R) Arc Control Service
+    TIPO                       : 10  WIN32_OWN_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: IntelAudioService
+NOME_PARA_EXIBIÄ«O: Intel(R) Audio Service
+    TIPO                       : 10  WIN32_OWN_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: iphlpsvc
+NOME_PARA_EXIBIÄ«O: Auxiliar de IP
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: jhi_service
+NOME_PARA_EXIBIÄ«O: Intel(R) Dynamic Application Loader Host Interface Service
+    TIPO                       : 10  WIN32_OWN_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: KeyIso
+NOME_PARA_EXIBIÄ«O: Isolamento de Chave CNG
+    TIPO                       : 20  WIN32_SHARE_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: LanmanServer
+NOME_PARA_EXIBIÄ«O: Server
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: LanmanWorkstation
+NOME_PARA_EXIBIÄ«O: Estaá∆o de trabalho
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: lfsvc
+NOME_PARA_EXIBIÄ«O: Serviáo de Geolocalizaá∆o
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: LicenseManager
+NOME_PARA_EXIBIÄ«O: Serviáo de Gerenciador de Licenáa do Windows
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: LiveWallpaperService
+NOME_PARA_EXIBIÄ«O: Live Wallpaper
+    TIPO                       : 10  WIN32_OWN_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: lmhosts
+NOME_PARA_EXIBIÄ«O: Auxiliar NetBIOS TCP/IP
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: LMS
+NOME_PARA_EXIBIÄ«O: Intel(R) Management and Security Application Local Management Service
+    TIPO                       : 10  WIN32_OWN_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: LSM
+NOME_PARA_EXIBIÄ«O: Gerenciador de Sess∆o Local
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (NOT_STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: MDCoreSvc
+NOME_PARA_EXIBIÄ«O: Serviáo Microsoft Defender Core
+    TIPO                       : 10  WIN32_OWN_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: mpssvc
+NOME_PARA_EXIBIÄ«O: Windows Defender Firewall
+    TIPO                       : 20  WIN32_SHARE_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (NOT_STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: MySQL80
+NOME_PARA_EXIBIÄ«O: MySQL80
+    TIPO                       : 10  WIN32_OWN_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: NcbService
+NOME_PARA_EXIBIÄ«O: Agente de Conex∆o de Rede
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: Netman
+NOME_PARA_EXIBIÄ«O: Conex‰es de Rede
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: netprofm
+NOME_PARA_EXIBIÄ«O: Serviáo da Lista de Redes
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: NgcCtnrSvc
+NOME_PARA_EXIBIÄ«O: Contàiner do Microsoft Passport
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_PRESHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: NgcSvc
+NOME_PARA_EXIBIÄ«O: Microsoft Passport
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: nsi
+NOME_PARA_EXIBIÄ«O: Serviáo de Interface de Reposit¢rio de Rede
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: nvagent
+NOME_PARA_EXIBIÄ«O: Serviáo de Virtualizaá∆o de Rede
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: PcaSvc
+NOME_PARA_EXIBIÄ«O: Serviáo Auxiliar de Compatibilidade de Programas
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: PhoneSvc
+NOME_PARA_EXIBIÄ«O: Serviáo de Telefonia
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: PlugPlay
+NOME_PARA_EXIBIÄ«O: Plug and Play
+    TIPO                       : 20  WIN32_SHARE_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: PolicyAgent
+NOME_PARA_EXIBIÄ«O: Agente de Pol°tica IPsec
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: Power
+NOME_PARA_EXIBIÄ«O: Desligar
+    TIPO                       : 20  WIN32_SHARE_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (NOT_STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: ProfSvc
+NOME_PARA_EXIBIÄ«O: Serviáo de Perfil de Usu†rio
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: Quick Search Service
+NOME_PARA_EXIBIÄ«O: Quick Search Service
+    TIPO                       : 10  WIN32_OWN_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: RasMan
+NOME_PARA_EXIBIÄ«O: Gerenciador de conex∆o de acesso remoto
+    TIPO                       : 20  WIN32_SHARE_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: RmSvc
+NOME_PARA_EXIBIÄ«O: Serviáo de Gerenciamento de R†dio
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: RpcEptMapper
+NOME_PARA_EXIBIÄ«O: Mapeador de Ponto de Extremidade RPC
+    TIPO                       : 20  WIN32_SHARE_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (NOT_STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: RpcSs
+NOME_PARA_EXIBIÄ«O: RPC (Chamada de Procedimento Remoto)
+    TIPO                       : 20  WIN32_SHARE_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (NOT_STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: RtkAudioUniversalService
+NOME_PARA_EXIBIÄ«O: Realtek Audio Universal Service
+    TIPO                       : 10  WIN32_OWN_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: SamSs
+NOME_PARA_EXIBIÄ«O: Gerente de Contas de Seguranáa
+    TIPO                       : 20  WIN32_SHARE_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (NOT_STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: SamsungPlatformEngine
+NOME_PARA_EXIBIÄ«O: SamsungPlatformEngine
+    TIPO                       : 110  WIN32_OWN_PROCESS  (interactive)
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, PAUSABLE, ACCEPTS_PRESHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: SamsungRecoveryService
+NOME_PARA_EXIBIÄ«O: Samsung Recovery Service
+    TIPO                       : 10  WIN32_OWN_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, PAUSABLE, ACCEPTS_PRESHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: SamsungSecuritySupportService
+NOME_PARA_EXIBIÄ«O: Samsung Security Support Service
+    TIPO                       : 10  WIN32_OWN_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: SamsungSystemSupportService
+NOME_PARA_EXIBIÄ«O: SamsungSystemSupportService
+    TIPO                       : 10  WIN32_OWN_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: Schedule
+NOME_PARA_EXIBIÄ«O: Agendador de Tarefas
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: SecurityHealthService
+NOME_PARA_EXIBIÄ«O: Serviáo de Seguranáa do Windows
+    TIPO                       : 10  WIN32_OWN_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (NOT_STOPPABLE, NOT_PAUSABLE, ACCEPTS_PRESHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: SENS
+NOME_PARA_EXIBIÄ«O: Serviáo de Notificaá∆o de Eventos do Sistema
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: SharedAccess
+NOME_PARA_EXIBIÄ«O: ICS (Compartilhamento de Conex∆o com a Internet)
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: ShellHWDetection
+NOME_PARA_EXIBIÄ«O: Detecá∆o do hardware do shell
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: Spooler
+NOME_PARA_EXIBIÄ«O: Spooler de Impress∆o
+    TIPO                       : 110  WIN32_OWN_PROCESS  (interactive)
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: SSDPSRV
+NOME_PARA_EXIBIÄ«O: Descoberta SSDP
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: sService Agent Launcher
+NOME_PARA_EXIBIÄ«O: sService Agent Launcher
+    TIPO                       : 110  WIN32_OWN_PROCESS  (interactive)
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: ssh-agent
+NOME_PARA_EXIBIÄ«O: OpenSSH Authentication Agent
+    TIPO                       : 10  WIN32_OWN_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: SstpSvc
+NOME_PARA_EXIBIÄ«O: Serviáo SSTP
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: StateRepository
+NOME_PARA_EXIBIÄ«O: Serviáo de Reposit¢rio de Estado
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: StorSvc
+NOME_PARA_EXIBIÄ«O: Serviáo de Armazenamento
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: SysMain
+NOME_PARA_EXIBIÄ«O: SysMain
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: SystemEventsBroker
+NOME_PARA_EXIBIÄ«O: Agente de Eventos do Sistema
+    TIPO                       : 20  WIN32_SHARE_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: SystemUsageReportSvc_QUEENCREEK
+NOME_PARA_EXIBIÄ«O: Intel(R) System Usage Report Service SystemUsageReportSvc_QUEENCREEK
+    TIPO                       : 10  WIN32_OWN_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: TapiSrv
+NOME_PARA_EXIBIÄ«O: Telefonia
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: TextInputManagementService
+NOME_PARA_EXIBIÄ«O: Serviáo de Gerenciamento de Entrada de Texto
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (NOT_STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: Themes
+NOME_PARA_EXIBIÄ«O: Temas
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: TimeBrokerSvc
+NOME_PARA_EXIBIÄ«O: Agente de Tempo
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: TokenBroker
+NOME_PARA_EXIBIÄ«O: Gerenciador de Conta da Web
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: TrkWks
+NOME_PARA_EXIBIÄ«O: Cliente de rastreamento de link distribu°do
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: TrustedInstaller
+NOME_PARA_EXIBIÄ«O: Instalador de M¢dulos do Windows
+    TIPO                       : 10  WIN32_OWN_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_PRESHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: UserManager
+NOME_PARA_EXIBIÄ«O: Gerenciador de Usu†rios
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: UsoSvc
+NOME_PARA_EXIBIÄ«O: Serviáo orquestrador de atualizaá‰es
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_PRESHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: VaultSvc
+NOME_PARA_EXIBIÄ«O: Gerenciador de Credenciais
+    TIPO                       : 20  WIN32_SHARE_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: W32Time
+NOME_PARA_EXIBIÄ«O: Hor†rio do Windows
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: W3SVC
+NOME_PARA_EXIBIÄ«O: Serviáo de Publicaá∆o da World Wide Web
+    TIPO                       : 20  WIN32_SHARE_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: WAS
+NOME_PARA_EXIBIÄ«O: Serviáo de Ativaá∆o de Processos do Windows
+    TIPO                       : 20  WIN32_SHARE_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: Wcmsvc
+NOME_PARA_EXIBIÄ«O: Gerenciador de Conex‰es do Windows
+    TIPO                       : 10  WIN32_OWN_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: WdiSystemHost
+NOME_PARA_EXIBIÄ«O: Host do Sistema de Diagn¢sticos
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: WdNisSvc
+NOME_PARA_EXIBIÄ«O: Serviáo de Inspeá∆o de Rede do Microsoft Defender Antiv°rus
+    TIPO                       : 10  WIN32_OWN_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: webthreatdefsvc
+NOME_PARA_EXIBIÄ«O: Serviáo de Defesa Contra Ameaáas da Web
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: WinDefend
+NOME_PARA_EXIBIÄ«O: Serviáo Microsoft Defender Antiv°rus
+    TIPO                       : 10  WIN32_OWN_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (NOT_STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: WinHttpAutoProxySvc
+NOME_PARA_EXIBIÄ«O: Serviáo de Descoberta Autom†tica de Proxy da Web do WinHTTP
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (NOT_STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: Winmgmt
+NOME_PARA_EXIBIÄ«O: Testador de instrumentaá∆o de gerenciam. do Windows
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: WlanSvc
+NOME_PARA_EXIBIÄ«O: Configuraá∆o Autom†tica de WLAN
+    TIPO                       : 10  WIN32_OWN_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: wlidsvc
+NOME_PARA_EXIBIÄ«O: Assistente de Conex∆o de Conta da Microsoft
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: WMIRegistrationService
+NOME_PARA_EXIBIÄ«O: Intel(R) Management Engine WMI Provider Registration
+    TIPO                       : 10  WIN32_OWN_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: WpnService
+NOME_PARA_EXIBIÄ«O: Serviáo do Sistema de Notificaá‰es por Push do Windows
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: wscsvc
+NOME_PARA_EXIBIÄ«O: Central de Seguranáa
+    TIPO                       : 30  WIN32  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: WSearch
+NOME_PARA_EXIBIÄ«O: Windows Search
+    TIPO                       : 10  WIN32_OWN_PROCESS  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: cbdhsvc_db62be
+NOME_PARA_EXIBIÄ«O: Serviáo de Usu†rio da µrea de Transferància_db62be
+    TIPO                       : f0   ERROR  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: CDPUserSvc_db62be
+NOME_PARA_EXIBIÄ«O: Serviáo de Usu†rio da Plataforma de Dispositivos Conectados_db62be
+    TIPO                       : f0   ERROR  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: DevicesFlowUserSvc_db62be
+NOME_PARA_EXIBIÄ«O: DevicesFlow_db62be
+    TIPO                       : f0   ERROR  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: NPSMSvc_db62be
+NOME_PARA_EXIBIÄ«O: NPSMSvc_db62be
+    TIPO                       : f0   ERROR  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: OneSyncSvc_db62be
+NOME_PARA_EXIBIÄ«O: Host de Sincronizaá∆o_db62be
+    TIPO                       : e0  USER_SHARE_PROCESS INSTANCE  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: UdkUserSvc_db62be
+NOME_PARA_EXIBIÄ«O: Serviáo de usu†rio UDK_db62be
+    TIPO                       : f0   ERROR  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: webthreatdefusersvc_db62be
+NOME_PARA_EXIBIÄ«O: Serviáo de Defesa do Usu†rio Contra Ameaáas da Web_db62be
+    TIPO                       : f0   ERROR  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, PAUSABLE, ACCEPTS_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: WpnUserService_db62be
+NOME_PARA_EXIBIÄ«O: Serviáo de Usu†rio de Notificaá‰es por Push do Windows_db62be
+    TIPO                       : f0   ERROR  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_PRESHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+"__________________________________________" 
+
+NOME_DO_SERVIÄO: ACPI
+NOME_PARA_EXIBIÄ«O: Microsoft ACPI Driver
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: acpiex
+NOME_PARA_EXIBIÄ«O: Microsoft ACPIEx Driver
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: acpipagr
+NOME_PARA_EXIBIÄ«O: Driver do Agregador do Processador ACPI
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: acpitime
+NOME_PARA_EXIBIÄ«O: Driver do Alarme de Ativaá∆o ACPI
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: AFD
+NOME_PARA_EXIBIÄ«O: Ancillary Function Driver for Winsock
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: afunix
+NOME_PARA_EXIBIÄ«O: afunix
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: ahcache
+NOME_PARA_EXIBIÄ«O: Application Compatibility Cache
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: bam
+NOME_PARA_EXIBIÄ«O: Background Activity Moderator Driver
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: BasicDisplay
+NOME_PARA_EXIBIÄ«O: BasicDisplay
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: BasicRender
+NOME_PARA_EXIBIÄ«O: BasicRender
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: Beep
+NOME_PARA_EXIBIÄ«O: Beep
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: bfs
+NOME_PARA_EXIBIÄ«O: Sistema de Arquivos de Corretagem
+    TIPO                       : 2  FILE_SYSTEM_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: bhtsddr
+NOME_PARA_EXIBIÄ«O: bhtsddr
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: bindflt
+NOME_PARA_EXIBIÄ«O: Windows Bind Filter Driver
+    TIPO                       : 2  FILE_SYSTEM_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: bowser
+NOME_PARA_EXIBIÄ«O: Navegador
+    TIPO                       : 2  FILE_SYSTEM_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: BTHPORT
+NOME_PARA_EXIBIÄ«O: Driver de Porta Bluetooth
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: BTHUSB
+NOME_PARA_EXIBIÄ«O: Driver USB de R†dio Bluetooth
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: CAD
+NOME_PARA_EXIBIÄ«O: Driver de Arbitragem de Carregamento
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: cdrom
+NOME_PARA_EXIBIÄ«O: Driver de CD-ROM
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: CimFS
+NOME_PARA_EXIBIÄ«O: CimFS
+    TIPO                       : 2  FILE_SYSTEM_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: CldFlt
+NOME_PARA_EXIBIÄ«O: Windows Cloud Files Filter Driver
+    TIPO                       : 2  FILE_SYSTEM_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: CLFS
+NOME_PARA_EXIBIÄ«O: Common Log (CLFS)
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: CmBatt
+NOME_PARA_EXIBIÄ«O: Driver de Bateria do MÇtodo de Controle ACPI da Microsoft
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: CNG
+NOME_PARA_EXIBIÄ«O: CNG
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: CompositeBus
+NOME_PARA_EXIBIÄ«O: Driver Enumerador de Barramento de Composiá∆o
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: condrv
+NOME_PARA_EXIBIÄ«O: Console Driver
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: dam
+NOME_PARA_EXIBIÄ«O: Desktop Activity Moderator Driver
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: Dfsc
+NOME_PARA_EXIBIÄ«O: Driver de Cliente para Namespaces de DFS
+    TIPO                       : 2  FILE_SYSTEM_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: disk
+NOME_PARA_EXIBIÄ«O: Driver de disco
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: dptf_acpi
+NOME_PARA_EXIBIÄ«O: dptf_acpi
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: dptf_cpu
+NOME_PARA_EXIBIÄ«O: dptf_cpu
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: DXGKrnl
+NOME_PARA_EXIBIÄ«O: LDDM Graphics Subsystem
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: EhStorClass
+NOME_PARA_EXIBIÄ«O: Enhanced Storage Filter Driver
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: esif_lf
+NOME_PARA_EXIBIÄ«O: esif_lf
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: fastfat
+NOME_PARA_EXIBIÄ«O: FAT12/16/32 File System Driver
+    TIPO                       : 2  FILE_SYSTEM_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: FileCrypt
+NOME_PARA_EXIBIÄ«O: FileCrypt
+    TIPO                       : 2  FILE_SYSTEM_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: FileInfo
+NOME_PARA_EXIBIÄ«O: File Information FS MiniFilter
+    TIPO                       : 2  FILE_SYSTEM_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: FltMgr
+NOME_PARA_EXIBIÄ«O: FltMgr
+    TIPO                       : 2  FILE_SYSTEM_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: fse
+NOME_PARA_EXIBIÄ«O: Flow steering engine
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: fvevol
+NOME_PARA_EXIBIÄ«O: Driver de Filtro de Criptografia de Unidade de Disco BitLocker
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: gameflt
+NOME_PARA_EXIBIÄ«O: gameflt
+    TIPO                       : 2  FILE_SYSTEM_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: GPIOClx0101
+NOME_PARA_EXIBIÄ«O: Microsoft GPIO Class Extension Driver
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: hidi2c
+NOME_PARA_EXIBIÄ«O: Driver de Miniporta HID I2C da Microsoft
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: HTTP
+NOME_PARA_EXIBIÄ«O: Serviáo HTTP
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: hvservice
+NOME_PARA_EXIBIÄ«O: Driver do Serviáo de Hipervisor da Microsoft
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: hvsocketcontrol
+NOME_PARA_EXIBIÄ«O: hvsocketcontrol
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: i8042prt
+NOME_PARA_EXIBIÄ«O: i8042 Keyboard and PS/2 Mouse Port Driver
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: iaLPSS2_GPIO2_TGL
+NOME_PARA_EXIBIÄ«O: Intel(R) Serial IO GPIO Driver v2
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: iaLPSS2_I2C_TGL
+NOME_PARA_EXIBIÄ«O: Intel(R) Serial IO I2C Driver v2
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: ibtusb
+NOME_PARA_EXIBIÄ«O: Intel(R) Wireless Bluetooth(R)
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: igfxn
+NOME_PARA_EXIBIÄ«O: igfxn
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: IntcAudioBus
+NOME_PARA_EXIBIÄ«O: Barramento da Tecnologia Intel© Smart Sound
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: IntcAzAudAddService
+NOME_PARA_EXIBIÄ«O: Service for Realtek HD Audio (WDM)
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: IntcOED
+NOME_PARA_EXIBIÄ«O: OED da Tecnologia Intel© Smart Sound
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: IntcUSB
+NOME_PARA_EXIBIÄ«O: Tecnologia Intel© Smart Sound para †udio USB
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: IntelGNA
+NOME_PARA_EXIBIÄ«O: Intel(R) GNA Scoring Accelerator service
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: intelpep
+NOME_PARA_EXIBIÄ«O: Driver Intel(R) Power Engine Plug-in
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: IntelPMT
+NOME_PARA_EXIBIÄ«O: Serviáo de Tecnologia de Monitoramento da Plataforma Intel(R)
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: intelppm
+NOME_PARA_EXIBIÄ«O: Driver de Processador Intel
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: iorate
+NOME_PARA_EXIBIÄ«O: Driver do Filtro de Taxa de E/S de Disco
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: kbdclass
+NOME_PARA_EXIBIÄ«O: Driver de Classe de Teclado
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: kdnic
+NOME_PARA_EXIBIÄ«O: Miniporta de Rede de Depuraá∆o de Kernel da Microsoft (NDIS 6.20)
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: KSecDD
+NOME_PARA_EXIBIÄ«O: KSecDD
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: KSecPkg
+NOME_PARA_EXIBIÄ«O: KSecPkg
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: ksthunk
+NOME_PARA_EXIBIÄ«O: Kernel Streaming Thunks
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: lltdio
+NOME_PARA_EXIBIÄ«O: Driver de E/S do Mapeador de Descoberta de Topologia de Camada de Link
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: luafv
+NOME_PARA_EXIBIÄ«O: Virtualizaá∆o de arquivo UAC
+    TIPO                       : 2  FILE_SYSTEM_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: MEIx64
+NOME_PARA_EXIBIÄ«O: Intel(R) Management Engine Interface 
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: MMCSS
+NOME_PARA_EXIBIÄ«O: Multimedia Class Scheduler
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: monitor
+NOME_PARA_EXIBIÄ«O: Microsoft Monitor Class Function Driver Service
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: mouclass
+NOME_PARA_EXIBIÄ«O: Mouse Class Driver
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: mouhid
+NOME_PARA_EXIBIÄ«O: Mouse HID Driver
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: mountmgr
+NOME_PARA_EXIBIÄ«O: Gerenciador de Pontos de Montagem
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: mpsdrv
+NOME_PARA_EXIBIÄ«O: Windows Defender Firewall Authorization Driver
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: mrxsmb
+NOME_PARA_EXIBIÄ«O: Wrapper e Mecanismo Mini-Redirecionador do SMB
+    TIPO                       : 2  FILE_SYSTEM_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: mrxsmb20
+NOME_PARA_EXIBIÄ«O: Mini-Redirecionador do SMB 2.0
+    TIPO                       : 2  FILE_SYSTEM_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: Msfs
+NOME_PARA_EXIBIÄ«O: Msfs
+    TIPO                       : 2  FILE_SYSTEM_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: mshidkmdf
+NOME_PARA_EXIBIÄ«O: Pass-through HID to KMDF Filter Driver
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: msisadrv
+NOME_PARA_EXIBIÄ«O: msisadrv
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: MSKSSRV
+NOME_PARA_EXIBIÄ«O: Proxy de serviáo de stream Microsoft
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: MsLldp
+NOME_PARA_EXIBIÄ«O: Protocolo Microsoft LLDP
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: MsQuic
+NOME_PARA_EXIBIÄ«O: MsQuic
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: mssmbios
+NOME_PARA_EXIBIÄ«O: Microsoft System Management BIOS Driver
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: MTConfig
+NOME_PARA_EXIBIÄ«O: Microsoft Input Configuration Driver
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: Mup
+NOME_PARA_EXIBIÄ«O: Mup
+    TIPO                       : 2  FILE_SYSTEM_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: NativeWifiP
+NOME_PARA_EXIBIÄ«O: Filtro NativeWiFi
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: NDIS
+NOME_PARA_EXIBIÄ«O: Driver do Sistema NDIS
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: NdisCap
+NOME_PARA_EXIBIÄ«O: Captura NDIS da Microsoft
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: NdisTapi
+NOME_PARA_EXIBIÄ«O: Driver TAPI NDIS de acesso remoto
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: Ndisuio
+NOME_PARA_EXIBIÄ«O: NDIS Usermode I/O Protocol
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: NdisVirtualBus
+NOME_PARA_EXIBIÄ«O: Enumerador de Adaptador de Rede Virtual Microsoft
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: NdisWan
+NOME_PARA_EXIBIÄ«O: Driver WAN NDIS de acesso remoto
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: ndproxy
+NOME_PARA_EXIBIÄ«O: NDIS Proxy Driver
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: Ndu
+NOME_PARA_EXIBIÄ«O: Windows Network Data Usage Monitoring Driver
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: NetAdapterCx
+NOME_PARA_EXIBIÄ«O: Network Adapter Wdf Class Extension Library
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: NetBIOS
+NOME_PARA_EXIBIÄ«O: NetBIOS Interface
+    TIPO                       : 2  FILE_SYSTEM_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: NetBT
+NOME_PARA_EXIBIÄ«O: NetBT
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: Netwtw10
+NOME_PARA_EXIBIÄ«O: ___ Driver do adaptador Intel(R) Wireless para Windows 10 64 bits
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: Npfs
+NOME_PARA_EXIBIÄ«O: Npfs
+    TIPO                       : 2  FILE_SYSTEM_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: npsvctrig
+NOME_PARA_EXIBIÄ«O: Named pipe service trigger provider
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: nsiproxy
+NOME_PARA_EXIBIÄ«O: NSI Proxy Service Driver
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: Ntfs
+NOME_PARA_EXIBIÄ«O: Ntfs
+    TIPO                       : 2  FILE_SYSTEM_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: Null
+NOME_PARA_EXIBIÄ«O: Null
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: partmgr
+NOME_PARA_EXIBIÄ«O: Driver de partiá∆o
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: pci
+NOME_PARA_EXIBIÄ«O: PCI Bus Driver
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: pcw
+NOME_PARA_EXIBIÄ«O: Performance Counters for Windows Driver
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: pdc
+NOME_PARA_EXIBIÄ«O: pdc
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: PEAUTH
+NOME_PARA_EXIBIÄ«O: PEAUTH
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: PptpMiniport
+NOME_PARA_EXIBIÄ«O: Miniporta de rede remota (PPTP)
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: PRM
+NOME_PARA_EXIBIÄ«O: Driver do PRM da Microsoft
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: Psched
+NOME_PARA_EXIBIÄ«O: Agendador de pacotes de serviáo
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: RasAgileVpn
+NOME_PARA_EXIBIÄ«O: Miniporta WAN (IKEv2)
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: Rasl2tp
+NOME_PARA_EXIBIÄ«O: Miniporta de rede remota (L2TP)
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: RasPppoe
+NOME_PARA_EXIBIÄ«O: Driver PPPOE de acesso remoto
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: RasSstp
+NOME_PARA_EXIBIÄ«O: Miniporta WAN (SSTP)
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: rdbss
+NOME_PARA_EXIBIÄ«O: Subsistema de Buffer Redirecionado
+    TIPO                       : 2  FILE_SYSTEM_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: rdpbus
+NOME_PARA_EXIBIÄ«O: Driver do Barramento do Redirecionador de Dispositivos de µrea de Trabalho Remota
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: RdpVideoMiniport
+NOME_PARA_EXIBIÄ«O: Remote Desktop Video Miniport Driver
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: rdyboost
+NOME_PARA_EXIBIÄ«O: ReadyBoost
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: RFCOMM
+NOME_PARA_EXIBIÄ«O: Bluetooth Device (RFCOMM Protocol TDI)
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: rspndr
+NOME_PARA_EXIBIÄ«O: Respondente de Descoberta de Topologia de Camada de Link
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: rt68cx21
+NOME_PARA_EXIBIÄ«O: Realtek NetAdapter Driver
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: SamsungEventController
+NOME_PARA_EXIBIÄ«O: SamsungEventController
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: semav6msr64
+NOME_PARA_EXIBIÄ«O: semav6msr64
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: spaceport
+NOME_PARA_EXIBIÄ«O: Driver de Espaáos de Armazenamento
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: SpbCx
+NOME_PARA_EXIBIÄ«O: Simple Peripheral Bus Support Library
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: srv2
+NOME_PARA_EXIBIÄ«O: Driver SMB 2.xxx do Servidor
+    TIPO                       : 2  FILE_SYSTEM_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: srvnet
+NOME_PARA_EXIBIÄ«O: srvnet
+    TIPO                       : 2  FILE_SYSTEM_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: storahci
+NOME_PARA_EXIBIÄ«O: Driver AHCI SATA Padr∆o da Microsoft
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: stornvme
+NOME_PARA_EXIBIÄ«O: Driver Microsoft Padr∆o NVM Express
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: storqosflt
+NOME_PARA_EXIBIÄ«O: Driver do Filtro QoS de Armazenamento
+    TIPO                       : 2  FILE_SYSTEM_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: storvsp
+NOME_PARA_EXIBIÄ«O: storvsp
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: swenum
+NOME_PARA_EXIBIÄ«O: Software Bus Driver
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: Tcpip
+NOME_PARA_EXIBIÄ«O: Driver de Protocolo TCP/IP
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: tcpipreg
+NOME_PARA_EXIBIÄ«O: @%SystemRoot%\System32\drivers\tcpipreg.sys,-10110,
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: tdx
+NOME_PARA_EXIBIÄ«O: Driver de Suporte a TDI Herdado de NetIO
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: TPM
+NOME_PARA_EXIBIÄ«O: TPM
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: UcmCx0101
+NOME_PARA_EXIBIÄ«O: USB Connector Manager KMDF Class Extension
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: UcmUcsiAcpiClient
+NOME_PARA_EXIBIÄ«O: Cliente UCM-UCSI ACPI
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: UcmUcsiCx0101
+NOME_PARA_EXIBIÄ«O: UCM-UCSI KMDF Class Extension
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: UCPD
+NOME_PARA_EXIBIÄ«O: UCPD
+    TIPO                       : 2  FILE_SYSTEM_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: Ucx01000
+NOME_PARA_EXIBIÄ«O: USB Host Support Library
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: UEFI
+NOME_PARA_EXIBIÄ«O: Driver UEFI da Microsoft
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: umbus
+NOME_PARA_EXIBIÄ«O: Driver de Enumerador UMBus
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: usbccgp
+NOME_PARA_EXIBIÄ«O: Microsoft USB Generic Parent Driver
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: USBHUB3
+NOME_PARA_EXIBIÄ«O: SuperSpeed Hub
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: USBSTOR
+NOME_PARA_EXIBIÄ«O: USB Mass Storage Driver
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: usbvideo
+NOME_PARA_EXIBIÄ«O: Dispositivo de v°deo USB (WDM)
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: USBXHCI
+NOME_PARA_EXIBIÄ«O: Controlador Host Compat°vel com USB xHCI
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: VBoxNetAdp
+NOME_PARA_EXIBIÄ«O: VirtualBox NDIS 6.0 Miniport Service
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: VBoxNetLwf
+NOME_PARA_EXIBIÄ«O: VirtualBox NDIS6 Bridged Networking Service
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: VBoxSup
+NOME_PARA_EXIBIÄ«O: VirtualBox Service
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: VBoxUSBMon
+NOME_PARA_EXIBIÄ«O: VirtualBox USB Monitor Service
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: vdrvroot
+NOME_PARA_EXIBIÄ«O: Enumerador de Unidade Virtual Microsoft
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: VfpExt
+NOME_PARA_EXIBIÄ«O: Microsoft Azure VFP Switch Filter Extension
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: Vid
+NOME_PARA_EXIBIÄ«O: Vid
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: vmbusr
+NOME_PARA_EXIBIÄ«O: Provedor de Barramento da M†quina Virtual
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: VMSNPXY
+NOME_PARA_EXIBIÄ«O: VmSwitch NIC Proxy Driver
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: VMSP
+NOME_PARA_EXIBIÄ«O: VmSwitch Protocol Driver
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: VmsProxy
+NOME_PARA_EXIBIÄ«O: VmSwitch Proxy Driver
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: volmgr
+NOME_PARA_EXIBIÄ«O: Driver de Gerenciador de Volumes
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: volmgrx
+NOME_PARA_EXIBIÄ«O: Gerenciador de Volume DinÉmico
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: volsnap
+NOME_PARA_EXIBIÄ«O: Driver de C¢pia de Sombra de Volume
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: volume
+NOME_PARA_EXIBIÄ«O: Driver do volume
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: vpcivsp
+NOME_PARA_EXIBIÄ«O: Servidor PCI do Microsoft Hyper-V
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: vwifibus
+NOME_PARA_EXIBIÄ«O: Virtual Wireless Bus Driver
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: vwififlt
+NOME_PARA_EXIBIÄ«O: Virtual WiFi Filter Driver
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: vwifimp
+NOME_PARA_EXIBIÄ«O: Virtual WiFi Miniport Service
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: wanarp
+NOME_PARA_EXIBIÄ«O: Driver ARP IP de acesso remoto
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: wcifs
+NOME_PARA_EXIBIÄ«O: Windows Container Isolation
+    TIPO                       : 2  FILE_SYSTEM_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: Wdf01000
+NOME_PARA_EXIBIÄ«O: Serviáo de Estruturas de Driver em Modo Kernel
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: WdFilter
+NOME_PARA_EXIBIÄ«O: Driver de Minifiltro do Microsoft Defender Antiv°rus
+    TIPO                       : 2  FILE_SYSTEM_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: wdiwifi
+NOME_PARA_EXIBIÄ«O: WDI Driver Framework
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: WdNisDrv
+NOME_PARA_EXIBIÄ«O: Driver do Sistema de Inspeá∆o de Rede do Microsoft Defender Antiv°rus
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: WFPLWFS
+NOME_PARA_EXIBIÄ«O: Plataforma para Filtros do Microsoft Windows
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: WindowsTrustedRT
+NOME_PARA_EXIBIÄ«O: Windows Trusted Execution Environment Class Extension
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: WindowsTrustedRTProxy
+NOME_PARA_EXIBIÄ«O: Serviáo de Proteá∆o de Tempo de Execuá∆o Confi†vel do Microsoft Windows
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: WmiAcpi
+NOME_PARA_EXIBIÄ«O: Microsoft Windows Management Interface for ACPI
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: Wof
+NOME_PARA_EXIBIÄ«O: Windows Overlay File System Filter Driver
+    TIPO                       : 2  FILE_SYSTEM_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: WpdUpFltr
+NOME_PARA_EXIBIÄ«O: WPD Upper Class Filter Driver
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: wtd
+NOME_PARA_EXIBIÄ«O: wtd
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: WUDFRd
+NOME_PARA_EXIBIÄ«O: Windows Driver Foundation - User-mode Driver Framework Reflector
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: WUDFWpdFs
+NOME_PARA_EXIBIÄ«O: Driver do Sistema de Arquivos WPD
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: WUDFWpdMtp
+NOME_PARA_EXIBIÄ«O: WUDFWpdMtp
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: Xvdd
+NOME_PARA_EXIBIÄ«O: XVDD Port Driver
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
+
+NOME_DO_SERVIÄO: MpKsl5a6d2801
+NOME_PARA_EXIBIÄ«O: MpKsl5a6d2801
+    TIPO                       : 1  KERNEL_DRIVER  
+    ESTADO                     : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+    C‡DIGO_DE_SA÷DA_DO_WIN32   : 0  (0x0)
+    C‡DIGO_DE_SA÷DA_DO_SERVIÄO : 0  (0x0)
+    PONTO_DE_VERIFICAÄ«O       : 0x0
+    AGUARDAR_DICA              : 0x0
