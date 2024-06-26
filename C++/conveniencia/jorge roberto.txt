@@ -1,3 +1,0 @@
-Cliente: jorge roberto.txt
- cadastrado com CPF : 2147483647
- comprou Pericles no valor de Pericles as 19|23 horas

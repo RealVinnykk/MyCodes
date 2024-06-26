@@ -1,3 +1,0 @@
-Cliente: TESTE3.txt
- cadastrado com CPF : 2147483647
- comprou Pericles no valor de Pericles as 18|53 horas
