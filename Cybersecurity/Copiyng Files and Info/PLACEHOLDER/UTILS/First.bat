@@ -3,8 +3,9 @@
 cd ..
 cd ..
 
-cd rpsIMPACTO
-start .
+:: cd <LOCATION > // use this in case you want to pop-up a window to distract the target 
+:: start . // will open the path you put @<LOCATION>
+  
 
 cd..
 cd PLACEHOLDER
