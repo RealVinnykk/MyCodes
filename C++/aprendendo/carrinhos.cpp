@@ -1,37 +1,66 @@
 #include <iostream>
 #include <list>
+#include <vector>
+#include <string>
+#include <windows.h>
+
+using namespace std;
+
+bool criarCarro(string quer){
+    if(quer == "Y" || "y"){
+        return true;
+    }else{
+        return false;
+    }
+}
+
+void wait(int sec){
+    Sleep(sec);
+}
+
+vector<string> carro;
 
 int main(){
 
-    std::list<int> prices = {};
-    std::string name;
-    std::string addList;
-    int age;
-    int addPrice;
+    bool querCarro;
+    string colocarCarro;    
+    string marcaCarro;
 
-    std::cout << "What is your name?: ";
-    std::cin >> name;
+    cout << "deseja colocar carros na lista?(Y/N): ";
+    cin >> colocarCarro;    
 
-    std::cout << "How old are you?: ";
-    std::cin >> age;
+    querCarro = criarCarro(colocarCarro);
 
-    std::cout << "<----------------------------------------------->" << std::endl;
-    std::cout << "Your name is " << name << std::endl;
-    std::cout << "You are " << age << " Years old" << std::endl;
-    std::cout << "Do you want to add cars numbers to the list?: (Y/N) ";
-    std::cin >> addList;
-    if (addList == "Y")
-    {
-        std::cin >> addPrice;
-    prices.push_back(addPrice);
-
-    prices;
-    }else{
-        std::cout << "Leaving program";
-    }
+    
+    
     
 
+    while(querCarro == true){
+        cout << "Digite o nome do carro para colocar, digite listar para ver os carros ate o momento: ";
+        cin >> marcaCarro;
+        
+        if (marcaCarro != "listar")
+        {
+            carro.push_back(marcaCarro);
+            wait(2);
+        cout << "digite sair para sair" << endl;
+        wait(1);
+        }else{
+            for (int i = 0; i < carro.size(); i++)
+            {
+                cout << "carro " << i << " - " << carro[i] << endl;
+            }
+            
+        }
 
-    system("pause");
+        if(marcaCarro == "sair"){
+            break;
+        }
 
+
+
+
+    }
+
+    return 0;
 }
