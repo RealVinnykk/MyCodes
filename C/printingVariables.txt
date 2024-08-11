@@ -1,0 +1,24 @@
+%d = int
+
+To print the integer value
+
+printf("%d",<int_variable>);
+
+%f = float
+
+To print the floating number
+
+printf("%f",<float_variable>);
+
+%lf = double
+
+To print the double precision floating number
+or long float
+
+printf("%lf",<double_variable>);
+
+%c = char
+
+To print the character value
+
+printf("%c",<char_variable>);

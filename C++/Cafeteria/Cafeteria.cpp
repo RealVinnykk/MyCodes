@@ -106,7 +106,7 @@ int main(){
     int areaMenu;
     int item;
     int metodo;
-    int valTotal;
+    
 
     while(pedindo == true){
         
@@ -119,7 +119,7 @@ int main(){
         vector<string> Sobremesas = {"Sorvete", "Bolo-Chocolate", "Macaron"};
         vector<int> vSobremesas = {3,4,5};
 
-
+     vector<int> valTotal = {0};   
     
 
     cout << "ola " << nomeCliente << " temos so seguintes items do menu disponiveis para pedir: " << endl;
@@ -248,11 +248,11 @@ int main(){
          for (int i = 0; i < Cesta.size(); i++)
          {
             cout << "Item " << Cesta[i] << " no valor de " << vCesta[i] << endl;
-                valTotal += vCesta[i] + 0;
+                valTotal[0] += vCesta[i];
                 arquivoDeSaida << "\n" << Cesta[i] << " valor " << vCesta[i] << "\n";
          }
-         cout << "o total do seu pedido foi de " << valTotal << " reais" << endl;
-         arquivoDeSaida << "\n" << "Total do pedido: " << valTotal << endl;
+         cout << "o total do seu pedido foi de " << valTotal[0] << " reais" << endl;
+         arquivoDeSaida << "\n" << "Total do pedido: " << valTotal[0] << endl;
         wait(1); 
         cout << "realizando pagamento..." << endl;
         wait(1);
@@ -262,6 +262,8 @@ int main(){
         Cesta.clear();
         vCesta.clear();
         wait(1);
+        pedindo = false;
+
         }
         
     }

@@ -1,9 +1,0 @@
-Data: 4/23/124
-Cliente: vinnt
-Itens: 
-
-Cafe Completo valor 15
-
-Ovo-Frito valor 5
-
-Pepsi valor 7
