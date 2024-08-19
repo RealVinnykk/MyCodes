@@ -1,7 +1,0 @@
-Data: 8/7/124
-Cliente: Vinny
-Itens: 
-
-Ovo-Frito valor 5
-
-Total do pedido: 5

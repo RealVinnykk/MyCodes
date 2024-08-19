@@ -8,9 +8,11 @@
 #include <chrono>
 #include <thread>
 #include <vector>
+#include <fstream>
 #include <string.h>
-#include <locale.h>
 #include <windows.h>
+#include "locale.h"
+
 
 using namespace std;
 
@@ -25,6 +27,7 @@ int mes = localTime->tm_mon + 1;
 int ano = localTime->tm_year;
 int hora = localTime->tm_hour;
 int minuto = localTime->tm_min;
+
 
 
 
@@ -63,7 +66,8 @@ void menu(){
     cout << "1 - Bebidas " << endl;
     cout << "2 - Pratos Principais" << endl;
     cout << "3 - Sobremesas" << endl;
-    cout << "4 - Caixa " << endl;
+    cout << "4 - Sacola " << endl;
+    cout << "5 - Caixa " << endl;
     cout << "-----== FIM ==-----" << endl;
     cout << "-----==========-----" << endl;
 
@@ -93,10 +97,9 @@ void sacola(){
 
 int main(){
 
-    
 
     cout << "bem-vindo a cafeteria cliente, qual seu nome?: ";
-    cin >> nomeCliente;
+    getline(cin, nomeCliente);
     string nomeArquivo = "pedido de " + nomeCliente + to_string(dia) + to_string(mes) +".txt";
     ofstream arquivoDeSaida;
     arquivoDeSaida.open(nomeArquivo, std::ios_base::app);
@@ -106,7 +109,8 @@ int main(){
     int areaMenu;
     int item;
     int metodo;
-    
+
+    cout << "ola " << nomeCliente << " temos so seguintes items do menu disponiveis para pedir: " << endl;
 
     while(pedindo == true){
         
@@ -122,7 +126,7 @@ int main(){
      vector<int> valTotal = {0};   
     
 
-    cout << "ola " << nomeCliente << " temos so seguintes items do menu disponiveis para pedir: " << endl;
+    
 
     wait(1);
     menu();
@@ -151,8 +155,8 @@ int main(){
             cout << "voce adicionou " << Bebidas[item] <<" no valor de " << vBebidas[item] << "$ na sua sacola!" << endl;
             Cesta.push_back(Bebidas[item]);
             vCesta.push_back(vBebidas[item]);
+            wait(1);
 
-            sacola();
             
         }else{
             break;
@@ -170,18 +174,19 @@ int main(){
         for (int i = 0; i < PratosPrincipais.size(); i++)
         {
            cout << "Item " << PratosPrincipais[i] << " no valor de " << vPratosPrincipais[i] << endl; 
-            wait(1);
+
         }
 
         cout << "qual item voce deseja?(digite 4 para voltar): ";
         cin >> item;
         item--;
+
         if (cin && item + 1 != 4)
         {
             cout << "item " << PratosPrincipais[item] << " foi adicionado na sua sacola no valor de " << vPratosPrincipais[item] << " reais" << endl;
             Cesta.push_back(PratosPrincipais[item]);
             vCesta.push_back(vPratosPrincipais[item]);
-            sacola();
+            wait(1); 
         }else{
             break;
         }
@@ -211,7 +216,7 @@ int main(){
             cout << "Item " << Sobremesas[item] << " foi adicionado a sua sacola no valor de "<< vSobremesas[item] << "$ reais! " << endl;
             Cesta.push_back(Sobremesas[item]);
             vCesta.push_back(vSobremesas[item]);
-            sacola();
+            wait(1);
        
         }else{
             break;
@@ -222,7 +227,12 @@ int main(){
         
     }
     
-    if (areaMenu == 4 && Cesta.size() > 0)
+    if(areaMenu == 4){
+        sacola();
+        wait(1);
+    }//~ End of sacola
+
+    if (areaMenu == 5 && Cesta.size() > 0)
     {
         
         cout << "voce está no caixa, como voce ira pagar?" << endl;
