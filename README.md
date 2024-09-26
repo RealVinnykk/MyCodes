@@ -7,6 +7,29 @@ A repository made do go along with my codes from all lenguages I try to use, fro
 
 - Gmail : vinipinheiro187@gmail.com
 
+## Comandos github para lembrar depois
+
+
+````
+$ git push 
+$ git add .
+$ git add origin < URL >
+$ git fetch < URL >
+$ git add
+$ git commit 
+$ git diff 
+$ git branch < NOME >
+$ git branch list
+ Dentre outros 
+````
+
+# Documentos que podem ajudar 
+ - [Documentos Git](https://git-scm.com/docs)
+ - [Video Tutorial GitHub](https://www.youtube.com/watch?v=tRZGeaHPoaw&pp=ygUQR2l0aHViIHR1dG9yaWFscw%3D%3D)
+- [Comandos Git](https://www.youtube.com/watch?v=Zwv9qRyVeU4&pp=ygUMR2l0IGNvbW1hbmRz)
+
+
+
 ## Contributions 
 ### Listing know contributors for control of people who use this repo
  

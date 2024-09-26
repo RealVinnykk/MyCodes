@@ -347,7 +347,7 @@ int main()
                                             // while (sec > 1)
                                             // {
                                             //     cout << "The program will leave in " << sec << " Seconds and will go back to the start\r";
-                                            //     Sleep(1000);
+                       \\\\\\\\\\\\                     //     Sleep(1000);
                                             //     sec--;
                                             // }
 
